@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Warning</string>
+    <string name="permissions_main_text">Please allow necessary permissions to enable call screen.</string>
+    <string name="open">open</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="applyIt">Apply it</string>
+    <string name="download">Download</string>
+    <string name="select_contacts">Select Contacts</string>
+    <string name="set">Set</string>
+    <string name="call_screen">Call Screen</string>
+    <string name="flash_on_call">Flash on Call</string>
+    <string name="contact_theme">Contact Theme</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Share</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="enable_call_screen">Enable Call Screen</string>
+    <string name="phonesandcontacts"><![CDATA[Phone & Contacts]]></string>
+    <string name="phonesandcontactssubtitle">To detect incoming call and show contacts</string>
+    <string name="screen_permission">Screen Permission</string>
+    <string name="screen_permission_subtitle">To show call screen</string>
+    <string name="call_permission_subtitle">To enable answer calls</string>
+    <string name="call_permission_title">Call Permission</string>
+    <string name="number_show_permission">Number Permission</string>
+    <string name="number_show_permission_subtitle">To show incall number</string>
+    <string name="to_show_call_screen">To show call screen</string>
+    <string name="call_screen_launched">Call screen launched</string>
+    <string name="applied">Applied</string>
+    <string name="apply_theme">Apply Theme?</string>
+    <string name="apply_theme_subtitle">Apply new theme for you caller screen?</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply">Apply</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainCallFragment"
+    android:id="@+id/call_graph">
+    <fragment android:id="@+id/mainCallFragment"
+        android:name="com.call.screen.themes.ui.fragments.MainCallsFragment"
+        tools:layout="@layout/fragment_main_calls"
+        >
+        <action
+            android:id="@+id/action_mainCallFragment_to_callScreen"
+            app:popUpToInclusive="true"
+            app:destination="@id/callScreen" />
+        <action
+            android:id="@+id/action_mainCallFragment_to_dialogPermissions"
+            app:popUpToInclusive="true"
+            app:destination="@id/dialogPermissions" />
+        <action
+            android:id="@+id/action_mainCallFragment_to_dialogPermissions2"
+            app:destination="@id/dialogPermissions" />
+    </fragment>
+    <fragment android:id="@+id/callScreen"
+        android:name="com.call.screen.themes.ui.fragments.CallScreenFragment"
+        tools:layout="@layout/fragment_call_screen">
+        <action
+            android:id="@+id/action_callScreen_to_contactsFragment"
+            app:destination="@id/contactsFragment"
+            app:popUpToInclusive="true"
+            />
+        <action
+            android:id="@+id/action_callScreen_to_dialogApplyTheme"
+            app:popUpToInclusive="true"
+            app:destination="@id/dialogApplyTheme" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.call.screen.themes.ui.fragments.ContactsFragment"
+        tools:layout="@layout/fragment_contacts"/>
+    <dialog
+        android:id="@+id/dialogPermissions"
+        android:name="com.call.screen.themes.ui.dialogs.DialogPermissions"
+        tools:layout="@layout/dialog_permissions">
+        <action
+            android:id="@+id/action_dialogPermissions_to_dialogPermissionOverApps"
+            app:popUpToInclusive="true"
+            app:destination="@id/dialogPermissionOverApps" />
+    </dialog>
+    <dialog
+        android:id="@+id/dialogPermissionOverApps"
+        android:name="com.call.screen.themes.ui.dialogs.DialogPermissionOverApps"
+        tools:layout="@layout/dialog_permission_over_apps"/>
+    <dialog
+        android:id="@+id/dialogApplyTheme"
+        android:name="com.call.screen.themes.ui.dialogs.DialogApplyTheme"
+        tools:layout="@layout/dialog_apply_theme"/>
+</navigation>
