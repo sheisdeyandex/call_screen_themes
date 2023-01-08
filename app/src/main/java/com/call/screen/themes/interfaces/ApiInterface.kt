@@ -16,7 +16,7 @@ interface ApiInterface {
         var BASE_URL = "https://callapi.onrender.com/"
         fun create() : ApiInterface {
             val client = OkHttpClient.Builder()
-                .readTimeout(30, TimeUnit.SECONDS)
+                .readTimeout(15, TimeUnit.SECONDS)
                 .build()
 
             val retrofit = Retrofit.Builder()

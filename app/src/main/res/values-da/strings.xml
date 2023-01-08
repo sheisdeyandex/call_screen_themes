@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Advarsel</string>
+    <string name="permissions_main_text">Tillad venligst de nødvendige tilladelser for at aktivere opkaldsskærmen.</string>
+    <string name="open">åben</string>
+    <string name="decline">Nedgang</string>
+    <string name="accept">Enig</string>
+    <string name="applyIt">Anvend det</string>
+    <string name="download">Hent</string>
+    <string name="select_contacts">Vælg Kontakter</string>
+    <string name="set">Sæt</string>
+    <string name="call_screen">Opkaldsskærm</string>
+    <string name="flash_on_call">Flash ved opkald</string>
+    <string name="contact_theme">Kontakt tema</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Del</string>
+    <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="enable_call_screen">Aktiver opkaldsskærm</string>
+    <string name="phonesandcontacts"><![CDATA[Telefon og kontakter]]></string>
+    <string name="phonesandcontactssubtitle">For at registrere indgående opkald og vise kontakter</string>
+    <string name="screen_permission">Skærmtilladelse</string>
+    <string name="screen_permission_subtitle">For at vise opkaldsskærmen</string>
+    <string name="call_permission_subtitle">For at aktivere besvare opkald</string>
+    <string name="call_permission_title">Opkaldstilladelse</string>
+    <string name="number_show_permission">Nummertilladelse</string>
+    <string name="number_show_permission_subtitle">For at vise opkaldsnummer</string>
+    <string name="to_show_call_screen">For at vise opkaldsskærmen</string>
+    <string name="call_screen_launched">Opkaldsskærmen er startet</string>
+    <string name="applied">Anvendt</string>
+    <string name="apply_theme">Vil du anvende tema?</string>
+    <string name="apply_theme_subtitle">Vil du anvende nyt tema til din opkaldsskærm?</string>
+    <string name="cancel">Afbestille</string>
+    <string name="apply">ansøge</string>
+    <string name="privacy_policy_agreement">Ved at fortsætte accepterer du <a href="https://ponica.media/dynamic-island/privacy-policy/">fortrolighedspolitikken</a> og <a href="https://ponica.media/dynamic-island/term-of-service/">servicevilkårene</a></string>
+
+    <string name="continue_title">Næste</string>
+
+    <string name="subscription">Abonnementet fornys automatisk til samme pris og for samme periode. Du kan til enhver tid opsige dit abonnement på <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Acceptere</string>
+    <string name="onboard_title_1">velkommen ti\ncall screen themes</string>
+    <string name="onboard_desc_1">For at fortsætte skal du læse og acceptere: <a href="https://ponica.media/call-screen/privacy-policy/">Fortrolighedspolitik</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Brugeraftale</a></string>
+    <string name="onboard_title_2">Over 30 lyse\nskærme</string>
+    <string name="onboard_desc_2">Nye temaer hver måned</string>
+    <string name="onboard_title_3">Indstil en unik video\nfor hver kontakt</string>
+    <string name="onboard_desc_3">Abstraktioner, landskaber, kæledyr og mere</string>
+    <string name="onboard_title_4">Indstil blitzlyset\npå opkaldet</string>
+    <string name="onboard_desc_4">Tilføj en speciel effekt for mere lysstyrke</string>
+
+    <string name="paywall_benefit_1">HD kvalitet</string>
+    <string name="paywall_benefit_2">Ingen reklame</string>
+    <string name="paywall_benefit_3">Over 30 skærme</string>
+    <string name="reestablish">Genoprette</string>
+    <string name="paywall_title">PRØV DET GRATIS\nUDEN ANNONCER</string>
+    <string name="month_btn_title">3 dage gratis</string>
+    <string name="month_desc">Efter gratis prøveperiode %1s om måneden</string>
+    <string name="year_btn_title">7 dage gratis</string>
+    <string name="year_desc">Efter gratis prøveperiode %1s per år</string>
+    <string name="like_this_app">Giv os venligst 5 stjerner, hvis du kunne lide appen</string>
+    <string name="rate">Sats</string>
+    <string name="rate_on_google_play">Bedøm i Google Play</string>
+    <string name="yes">Ja</string>
+    <string name="no">Ingen</string>
+    <string name="do_you_like_this_app">Kunne du lide appen?</string>
+    <string name="do_you_like_this_app_short">Kunne du lide\nappen?</string>
+    <string name="close_icon">Luk ikon</string>
+    <string name="monster_icon">Monster ikon</string>
+    <string name="send">Sende</string>
+    <string name="enter_text">Indtast tekst</string>
+    <string name="help_to_improve">Hjælp os venligst med at forbedre appen!</string>
+    <string name="describe_what_you_didnt_like">Beskriv hvad du ikke kunne lide</string>
+    <string name="delete">Slet</string>
+    <string name="delete_theme">slette emne</string>
+</resources>

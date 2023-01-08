@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">تحذير</string>
+    <string name="permissions_main_text">يرجى السماح بالأذونات اللازمة لتمكين شاشة الاتصال.</string>
+    <string name="open">افتح</string>
+    <string name="decline">انخفاض</string>
+    <string name="accept">يوافق</string>
+    <string name="applyIt">قم بتطبيقه</string>
+    <string name="download">تحميل</string>
+    <string name="select_contacts">حدد جهات الاتصال</string>
+    <string name="set">تعيين</string>
+    <string name="call_screen">شاشة الاتصال</string>
+    <string name="flash_on_call">فلاش عند الاتصال</string>
+    <string name="contact_theme">موضوع الاتصال</string>
+    <string name="feedback">ردود الفعل</string>
+    <string name="share">يشارك</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="enable_call_screen">تفعيل شاشة الاتصال</string>
+    <string name="phonesandcontacts"><![CDATA[اتصالات الهاتف]]></string>
+    <string name="phonesandcontactssubtitle">للكشف عن المكالمات الواردة وإظهار جهات الاتصال</string>
+    <string name="screen_permission">إذن الشاشة</string>
+    <string name="screen_permission_subtitle">لإظهار شاشة الاتصال</string>
+    <string name="call_permission_subtitle">لتمكين الرد على المكالمات</string>
+    <string name="call_permission_title">إذن الاتصال</string>
+    <string name="number_show_permission">إذن الرقم</string>
+    <string name="number_show_permission_subtitle">لإظهار رقم incall</string>
+    <string name="to_show_call_screen">لإظهار شاشة الاتصال</string>
+    <string name="call_screen_launched">تم تشغيل شاشة الاتصال</string>
+    <string name="applied">مُطبَّق</string>
+    <string name="apply_theme">تطبيق موضوع؟</string>
+    <string name="apply_theme_subtitle">تطبيق موضوع جديد لشاشة المتصل الخاصة بك؟</string>
+    <string name="cancel">يلغي</string>
+    <string name="apply">تطبيق</string>
+    <string name="privacy_policy_agreement">من خلال الاستمرار فإنك توافق على <a href="https://ponica.media/dynamic-island/privacy-policy/">سياسة الخصوصية</a> و <a href="https://ponica.media/dynamic-island/term-of-service/">شروط الخدمة</a></string>
+
+    <string name="continue_title">التالي</string>
+
+    <string name="subscription">سيتم تجديد الاشتراك تلقائيًا بنفس السعر ونفس الفترة. يمكنك إلغاء اشتراكك في أي وقت على <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">قبول</string>
+    <string name="onboard_title_1">مرحبا بك في\ncall screen themes</string>
+    <string name="onboard_desc_1">للمتابعة ، يرجى قراءة والموافقة على: <a href="https://ponica.media/call-screen/privacy-policy/">سياسة الخصوصية</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">اتفاقية المستخدم</a></string>
+    <string name="onboard_title_2">أكثر من 30 مشرق\nشاشات</string>
+    <string name="onboard_desc_2">مواضيع جديدة كل شهر</string>
+    <string name="onboard_title_3">ضع مقطع فيديو فريدًا\nلكل جهة اتصال</string>
+    <string name="onboard_desc_3">التجريد والمناظر الطبيعية والحيوانات الأليفة وأكثر من ذلك</string>
+    <string name="onboard_title_4">اضبط ضوء الفلاش\nعلى المكالمة</string>
+    <string name="onboard_desc_4">أضف تأثيرًا خاصًا لمزيد من السطوع</string>
+
+    <string name="paywall_benefit_1">جودة HD</string>
+    <string name="paywall_benefit_2">لا اعلانات</string>
+    <string name="paywall_benefit_3">أكثر من 30 شاشة</string>
+    <string name="reestablish">إعادة</string>
+    <string name="paywall_title">قم بتجربته مجانا\nبدون اعلانات</string>
+    <string name="month_btn_title">3 أيام مجانية</string>
+    <string name="month_desc">بعد الإصدار التجريبي المجاني٪ 1s شهريًا</string>
+    <string name="year_btn_title">7 أيام مجانية</string>
+    <string name="year_desc">بعد الفترة التجريبية المجانية٪ 1s سنويًا</string>
+    <string name="like_this_app">يرجى إعطائنا 5 نجوم إذا أعجبك التطبيق</string>
+    <string name="rate">معدل</string>
+    <string name="rate_on_google_play">معدل على Google Play</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="do_you_like_this_app">هل أعجبك التطبيق؟</string>
+    <string name="do_you_like_this_app_short">هل اعجبك\nالتطبيق?</string>
+    <string name="close_icon">إغلاق الأيقونة</string>
+    <string name="monster_icon">أيقونة الوحش</string>
+    <string name="send">يرسل</string>
+    <string name="enter_text">أدخل النص</string>
+    <string name="help_to_improve">الرجاء مساعدتنا في تحسين التطبيق!</string>
+    <string name="describe_what_you_didnt_like">صف ما لم يعجبك</string>
+    <string name="delete">حذف</string>
+    <string name="delete_theme">حذف الموضوع</string>
+</resources>

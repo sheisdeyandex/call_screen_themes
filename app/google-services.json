@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "353199306195",
+    "project_id": "call-screen-28502",
+    "storage_bucket": "call-screen-28502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353199306195:android:76d85d3084fc7799b22b26",
+        "android_client_info": {
+          "package_name": "call.screen.themes.wallpaper.live.color.flash.light"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353199306195-l3ehbegq7d4su84om3b5n3p2bmd5tgv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJIpMYAZUR85VzodQlMWVkNgynDp6K8XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353199306195-l3ehbegq7d4su84om3b5n3p2bmd5tgv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

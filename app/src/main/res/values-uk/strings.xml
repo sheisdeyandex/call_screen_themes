@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">УВАГА</string>
+    <string name="permissions_main_text">Надайте необхідні дозволи, щоб увімкнути екран викликів.</string>
+    <string name="open">ВІДЧИНЕНО</string>
+    <string name="decline">відхилити</string>
+    <string name="accept">Погодьтеся</string>
+    <string name="applyIt">Застосуйте його</string>
+    <string name="download">Завантажити</string>
+    <string name="select_contacts">Виберіть Контакти</string>
+    <string name="set">встановити</string>
+    <string name="call_screen">Call Screen</string>
+    <string name="flash_on_call">Flash on Call</string>
+    <string name="contact_theme">Контактна тема</string>
+    <string name="feedback">Зворотній зв\'язок</string>
+    <string name="share">Поділіться</string>
+    <string name="privacy_policy">Політика конфіденційності</string>
+    <string name="enable_call_screen">Увімкнути Call Screen</string>
+    <string name="phonesandcontacts"><![CDATA[Телефон і контакти]]></string>
+    <string name="phonesandcontactssubtitle">Щоб виявити вхідний дзвінок і показати контакти</string>
+    <string name="screen_permission">Дозвіл на екран</string>
+    <string name="screen_permission_subtitle">Щоб показати екран виклику</string>
+    <string name="call_permission_subtitle">Щоб увімкнути відповідь на дзвінки</string>
+    <string name="call_permission_title">Дозвіл на виклик</string>
+    <string name="number_show_permission">Дозвіл на номер</string>
+    <string name="number_show_permission_subtitle">Щоб показати вхідний номер</string>
+    <string name="to_show_call_screen">Щоб показати екран виклику</string>
+    <string name="call_screen_launched">Екран виклику запущено</string>
+    <string name="applied">Прикладний</string>
+    <string name="apply_theme">Застосувати тему?</string>
+    <string name="apply_theme_subtitle">Застосувати нову тему для екрана абонента?</string>
+    <string name="cancel">Скасувати</string>
+    <string name="apply">Застосувати</string>
+    <string name="privacy_policy_agreement">Продовжуючи, ви приймаєте <a href="https://ponica.media/dynamic-island/privacy-policy/">Політику конфіденційності</a> та <a href="https://ponica.media/dynamic-island/term-of-service/">Умови обслуговування</a></string>
+
+    <string name="continue_title">Далі</string>
+
+    <string name="subscription">Підписка автоматично поновиться за тією ж ціною та на той самий період. Ви можете будь-коли скасувати підписку в <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">прийняти</string>
+    <string name="onboard_title_1">Ласкаво просимо до\nвиклику тем екрану</string>
+    <string name="onboard_desc_1">Щоб продовжити, прочитайте та погодьтеся з: <a href="https://ponica.media/call-screen/privacy-policy/">Політикою конфіденційності</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Угода користувача</a></string>
+    <string name="onboard_title_2">Більше 30 яскравих\nекранів</string>
+    <string name="onboard_desc_2">Нові теми кожного місяця</string>
+    <string name="onboard_title_3">Встановіть унікальне відео\nдля кожного контакту</string>
+    <string name="onboard_desc_3">Абстракції, пейзажі, домашні тварини та інше</string>
+    <string name="onboard_title_4">Встановіть спалах\nпід час виклику</string>
+    <string name="onboard_desc_4">Додайте спеціальний ефект для більшої яскравості</string>
+
+    <string name="paywall_benefit_1">Якість HD</string>
+    <string name="paywall_benefit_2">Без реклами</string>
+    <string name="paywall_benefit_3">Більше 30 екранів</string>
+    <string name="reestablish">Відновити</string>
+    <string name="paywall_title">СПРОБУЙТЕ БЕЗКОШТОВНО\nБЕЗ РЕКЛАМИ</string>
+    <string name="month_btn_title">3 дні безкоштовно</string>
+    <string name="month_desc">Після безкоштовної пробної версії %1s на місяць</string>
+    <string name="year_btn_title">7 днів безкоштовно</string>
+    <string name="year_desc">Після безкоштовної пробної версії %1s на рік</string>
+    <string name="like_this_app">Будь ласка, дайте нам 5 зірок, якщо вам сподобався додаток</string>
+    <string name="rate">Оцінка</string>
+    <string name="rate_on_google_play">Оцініть в Google Play</string>
+    <string name="yes">Так</string>
+    <string name="no">Немає</string>
+    <string name="do_you_like_this_app">Вам сподобався додаток?</string>
+    <string name="do_you_like_this_app_short">Вам сподобався\nдодаток?</string>
+    <string name="close_icon">Закрити значок</string>
+    <string name="monster_icon">Монстр значок</string>
+    <string name="send">Надіслати</string>
+    <string name="enter_text">Введіть текст</string>
+    <string name="help_to_improve">Будь ласка, допоможіть нам покращити додаток!</string>
+    <string name="describe_what_you_didnt_like">Опишіть, що вам не сподобалося</string>
+    <string name="delete">Видалити</string>
+    <string name="delete_theme">видалити тему</string>
+</resources>

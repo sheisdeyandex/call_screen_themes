@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Call Screen Themes</string>
+    <string name="inter_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
     <string name="warning">Warning</string>
     <string name="permissions_main_text">Please allow necessary permissions to enable call screen.</string>
     <string name="open">open</string>
     <string name="decline">Decline</string>
-    <string name="accept">Accept</string>
+    <string name="accept">Agree</string>
     <string name="applyIt">Apply it</string>
     <string name="download">Download</string>
     <string name="select_contacts">Select Contacts</string>
@@ -31,5 +32,43 @@
     <string name="apply_theme_subtitle">Apply new theme for you caller screen?</string>
     <string name="cancel">Cancel</string>
     <string name="apply">Apply</string>
+    <string name="privacy_policy_agreement">By continuing you agree to the <a href="https://ponica.media/dynamic-island/privacy-policy/">Privacy Policy</a> and <a href="https://ponica.media/dynamic-island/term-of-service/">Terms of service</a></string>
 
+    <string name="continue_title">Next</string>
+
+    <string name="subscription">Subscription will renew automatically at the same price and for the same period. You can cancel your subscription at any time on <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Accept</string>
+    <string name="onboard_title_1">welcome to\ncall screen themes</string>
+    <string name="onboard_desc_1">To continue, please read and agree to: <a href="https://ponica.media/call-screen/privacy-policy/">Privacy Policy</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">User Agreement</a></string>
+    <string name="onboard_title_2">Over 30 bright\nscreens</string>
+    <string name="onboard_desc_2">New themes every month</string>
+    <string name="onboard_title_3">Set a unique video\nfor each contact</string>
+    <string name="onboard_desc_3">Abstractions, landscapes, pets and more</string>
+    <string name="onboard_title_4">Set the flash light\non the call</string>
+    <string name="onboard_desc_4">Add a special effect for more brightness</string>
+    <string name="paywall_benefit_1">HD quality</string>
+    <string name="paywall_benefit_2">No advertising</string>
+    <string name="paywall_benefit_3">Over 30 screens</string>
+    <string name="reestablish">Reestablish</string>
+    <string name="paywall_title">TRY IT FOR FREE\nWITHOUT ADVERTISING</string>
+    <string name="month_btn_title">3 days free</string>
+    <string name="month_desc">After Free Trial %1s per month</string>
+    <string name="year_btn_title">7 days free</string>
+    <string name="year_desc">After Free Trial %1s per year</string>
+    <string name="like_this_app">Пожалуйста поставьте нам 5 звезд, если приложение вам понравилось</string>
+    <string name="rate">Оценить</string>
+    <string name="rate_on_google_play">Оценить на Google Play</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="do_you_like_this_app">Вам понравилось приложение?</string>
+    <string name="do_you_like_this_app_short">Вам понравилось\nприложение?</string>
+    <string name="close_icon">Close Icon</string>
+    <string name="monster_icon">Monster Icon</string>
+    <string name="send">Отправить</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="help_to_improve">Пожалуйста, помогите нам улучшить приложение!</string>
+    <string name="describe_what_you_didnt_like">Опишите, что вам не понравилось</string>
+    <string name="delete">Delete</string>
+    <string name="delete_theme">Delete theme?</string>
 </resources>

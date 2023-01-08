@@ -5,9 +5,11 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import com.android.billingclient.api.*
 import com.android.billingclient.api.BillingClient
-import kotlinx.coroutines.DelicateCoroutinesApi
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
+import com.call.screen.themes.singleton.CallApplication
+import kotlinx.coroutines.*
+import kotlinx.coroutines.channels.awaitClose
+import kotlinx.coroutines.flow.channelFlow
+import kotlinx.coroutines.flow.flowOn
 
 object UtilsBilling {
 
@@ -18,23 +20,34 @@ object UtilsBilling {
 
     fun isEnableScreenOfferPremium() = getProductDetailsSubsMonth() != null
 
-    fun startConnection(activity: AppCompatActivity, callback: () -> Unit) {
+    fun startConnection(activity: AppCompatActivity, callback: () -> Unit) = channelFlow {
         UtilsBilling.activity = activity
         bc = null
         hmProductDetails = HashMap()
         callbackPurchase = {}
+        var isPremiumActive = false
         billingClient().startConnection(object : BillingClientStateListener {
             override fun onBillingSetupFinished(billingResult: BillingResult) {
                 if (billingResult.responseCode ==  BillingClient.BillingResponseCode.OK) {
                     @OptIn(DelicateCoroutinesApi::class)
                     GlobalScope.launch {
-                        var isPremiumActive = false
+                        if (queryActivePurchases().isNullOrEmpty()){
+                            send(isPremiumActive)
+                            close()
+                        }
                         queryActivePurchases().forEach { purchase ->
                             purchase.products.forEach { sku ->
                                 if (sku == Utils.monthSub || sku == Utils.yearSub || sku == Utils.monthSubLand || sku == Utils.yearSubLand) {
                                     if (purchase.purchaseState == Purchase.PurchaseState.PURCHASED) {
                                         isPremiumActive = true
+                                        send(isPremiumActive)
+                                        CallApplication.premium = isPremiumActive
+                                        close()
                                         //consumePurchasePremium(purchase)
+                                    }
+                                    else{
+                                        send(isPremiumActive)
+                                        close()
                                     }
                                 }
                             }
@@ -44,13 +57,25 @@ object UtilsBilling {
                     }
                 } else {
                     callback()
+                    CoroutineScope(Dispatchers.IO).launch {
+                        send(isPremiumActive)
+                        close()
+                    }
+
                 }
+
             }
             override fun onBillingServiceDisconnected() {
                 callback()
+                CoroutineScope(Dispatchers.IO).launch {
+                    send(isPremiumActive)
+                    close()
+                }
             }
+
         })
-    }
+        awaitClose()
+    }.flowOn(Dispatchers.IO)
 
     private fun billingClient(): BillingClient {
         if (bc == null) {

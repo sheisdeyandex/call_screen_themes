@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">चेतावनी</string>
+    <string name="permissions_main_text">कृपया कॉल स्क्रीन को सक्षम करने के लिए आवश्यक अनुमति दें।</string>
+    <string name="open">खोलना</string>
+    <string name="decline">मना करना</string>
+    <string name="accept">इस बात से सहमत</string>
+    <string name="applyIt">इसे लागाएं</string>
+    <string name="download">डाउनलोड</string>
+    <string name="select_contacts">संपर्क चुनें</string>
+    <string name="set">सेट</string>
+    <string name="call_screen">कॉल स्क्रीन</string>
+    <string name="flash_on_call">फ्लैश ऑन कॉल</string>
+    <string name="contact_theme">संपर्क विषय</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="share">शेयर करना</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="enable_call_screen">कॉल स्क्रीन सक्षम करें</string>
+    <string name="phonesandcontacts"><![CDATA[फोन और संपर्क]]></string>
+    <string name="phonesandcontactssubtitle">आने वाली कॉल का पता लगाने और संपर्क दिखाने के लिए</string>
+    <string name="screen_permission">स्क्रीन अनुमति</string>
+    <string name="screen_permission_subtitle">कॉल स्क्रीन दिखाने के लिए</string>
+    <string name="call_permission_subtitle">उत्तर कॉल सक्षम करने के लिए</string>
+    <string name="call_permission_title">कॉल अनुमति</string>
+    <string name="number_show_permission">संख्या अनुमति</string>
+    <string name="number_show_permission_subtitle">कॉल नंबर दिखाने के लिए</string>
+    <string name="to_show_call_screen">कॉल स्क्रीन दिखाने के लिए</string>
+    <string name="call_screen_launched">कॉल स्क्रीन लॉन्च की गई</string>
+    <string name="applied">लागू</string>
+    <string name="apply_theme">विषय लागू करें?</string>
+    <string name="apply_theme_subtitle">आप कॉलर स्क्रीन के लिए नई थीम लागू करें?</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="apply">लागू करना</string>
+    <string name="privacy_policy_agreement">जारी रखकर आप <a href="https://ponica.media/dynamic-island/privacy-policy/">गोपनीयता नीति</a> और <a href="https://ponica.media/dynamic-island/term-of-service/">सेवा की शर्तें</a></string>
+
+    <string name="continue_title">अगला</string>
+
+    <string name="subscription">सदस्यता स्वचालित रूप से उसी कीमत पर और उसी अवधि के लिए नवीनीकृत हो जाएगी। आप <a href="https://play.google.com/store/account/subscriptions">Google Play</a> पर किसी भी समय अपनी सदस्यता रद्द कर सकते हैं</string>
+
+    <string name="agree">स्वीकार करें</string>
+    <string name="onboard_title_1">कॉल स्क्रीन थीम में\nआपका स्वागत है</string>
+    <string name="onboard_desc_1">जारी रखने के लिए, कृपया पढ़ें और इससे सहमत हों: <a href="https://ponica.media/call-screen/privacy-policy/">गोपनीयता नीति</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">उपयोगकर्ता अनुबंध</a></string>
+    <string name="onboard_title_2">30 से अधिक\nउज्ज्वल स्क्रीन</string>
+    <string name="onboard_desc_2">हर महीने नई थीम</string>
+    <string name="onboard_title_3">प्रत्येक संपर्क के लिए एक\nअनूठा वीडियो सेट करें</string>
+    <string name="onboard_desc_3">सार, परिदृश्य, पालतू जानवर और बहुत कुछ</string>
+    <string name="onboard_title_4">कॉल पर फ्लैश\nलाइट सेट करें</string>
+    <string name="onboard_desc_4">अधिक चमक के लिए एक विशेष प्रभाव जोड़ें</string>
+
+    <string name="paywall_benefit_1">एचडी गुणवत्ता</string>
+    <string name="paywall_benefit_2">कोई विज्ञापन नहीं</string>
+    <string name="paywall_benefit_3">30 से अधिक स्क्रीन</string>
+    <string name="reestablish">पैर जमाने</string>
+    <string name="paywall_title">विज्ञापन के बिना इसे\nमुफ्त में आज़माएं</string>
+    <string name="month_btn_title">3 दिन नि:शुल्क</string>
+    <string name="month_desc">नि: शुल्क परीक्षण %1s प्रति माह के बाद</string>
+    <string name="year_btn_title">7 दिन नि:शुल्क</string>
+    <string name="year_desc">नि: शुल्क परीक्षण %1s प्रति वर्ष के बाद</string>
+    <string name="like_this_app">अगर आपको ऐप पसंद आया तो कृपया हमें 5 स्टार दें</string>
+    <string name="rate">दर</string>
+    <string name="rate_on_google_play">Google Play पर रेट करें</string>
+    <string name="yes">हां</string>
+    <string name="no">नहीं</string>
+    <string name="do_you_like_this_app">क्या आपको ऐप पसंद आया?</string>
+    <string name="do_you_like_this_app_short">क्या आपको ऐप\nपसंद आया?</string>
+    <string name="close_icon">आइकन बंद करें</string>
+    <string name="monster_icon">राक्षस चिह्न</string>
+    <string name="send">भेजना</string>
+    <string name="enter_text">पाठ दर्ज करें</string>
+    <string name="help_to_improve">कृपया ऐप को बेहतर बनाने में हमारी मदद करें!</string>
+    <string name="describe_what_you_didnt_like">वर्णन करें कि आपको क्या पसंद नहीं आया</string>
+    <string name="delete">मिटाना</string>
+    <string name="delete_theme">विषय हटाएं</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Avís</string>
+    <string name="permissions_main_text">Permet els permisos necessaris per activar la pantalla de trucades.</string>
+    <string name="open">obert</string>
+    <string name="decline">Declinar</string>
+    <string name="accept">Acordar</string>
+    <string name="applyIt">Aplica-ho</string>
+    <string name="download">Descarregar</string>
+    <string name="select_contacts">Seleccioneu Contactes</string>
+    <string name="set">Conjunt</string>
+    <string name="call_screen">Pantalla de trucades</string>
+    <string name="flash_on_call">Flash on Call</string>
+    <string name="contact_theme">Tema de contacte</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Compartir</string>
+    <string name="privacy_policy">Política de privacitat</string>
+    <string name="enable_call_screen">Activa la pantalla de trucades</string>
+    <string name="phonesandcontacts"><![CDATA[Telèfon i Contactes]]></string>
+    <string name="phonesandcontactssubtitle">Per detectar trucades entrants i mostrar contactes</string>
+    <string name="screen_permission">Permís de pantalla</string>
+    <string name="screen_permission_subtitle">Per mostrar la pantalla de trucada</string>
+    <string name="call_permission_subtitle">Per habilitar respondre trucades</string>
+    <string name="call_permission_title">Permís de trucada</string>
+    <string name="number_show_permission">Número de permís</string>
+    <string name="number_show_permission_subtitle">Per mostrar el número de trucada</string>
+    <string name="to_show_call_screen">Per mostrar la pantalla de trucada</string>
+    <string name="call_screen_launched">S\'ha obert la pantalla de trucada</string>
+    <string name="applied">Aplicat</string>
+    <string name="apply_theme">Voleu aplicar el tema?</string>
+    <string name="apply_theme_subtitle">Voleu aplicar un tema nou per a la vostra pantalla de trucada?</string>
+    <string name="cancel">Cancel · lar</string>
+    <string name="apply">Aplicar</string>
+    <string name="privacy_policy_agreement">En continuar, acceptes la <a href="https://ponica.media/dynamic-island/privacy-policy/">Política de privadesa</a> i les <a href="https://ponica.media/dynamic-island/term-of-service/">Condicions del servei</a></string>
+
+    <string name="continue_title">Pròxim</string>
+
+    <string name="subscription">La subscripció es renovarà automàticament al mateix preu i pel mateix període. Pots cancel·lar la teva subscripció en qualsevol moment a <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Acceptar</string>
+    <string name="onboard_title_1">Benvingut a\ncall screen themes</string>
+    <string name="onboard_desc_1">Per continuar, llegiu i accepteu: <a href="https://ponica.media/call-screen/privacy-policy/">Política de privacitat</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Acord d\'usuari</a></string>
+    <string name="onboard_title_2">Més de 30 pantalles\nbrillants</string>
+    <string name="onboard_desc_2">Nous temes cada mes</string>
+    <string name="onboard_title_3">Estableix un vídeo únic\nper a cada contacte</string>
+    <string name="onboard_desc_3">Abstraccions, paisatges, mascotes i molt més</string>
+    <string name="onboard_title_4">Configureu la llum del flaix\na la trucada</string>
+    <string name="onboard_desc_4">Afegiu un efecte especial per obtenir més brillantor</string>
+
+    <string name="paywall_benefit_1">Qualitat HD</string>
+    <string name="paywall_benefit_2">Sense publicitat</string>
+    <string name="paywall_benefit_3">Més de 30 pantalles</string>
+    <string name="reestablish">Reestablir</string>
+    <string name="paywall_title">PROVA-HO GRATUÏT\nSENSE PUBLICITAT</string>
+    <string name="month_btn_title">3 dies gratuïts</string>
+    <string name="month_desc">Després de la prova gratuïta %1s per mes</string>
+    <string name="year_btn_title">7 dies gratuïts</string>
+    <string name="year_desc">Després de la prova gratuïta %1s per any</string>
+    <string name="like_this_app">Si us plau, doneu-nos 5 estrelles si us ha agradat l\'aplicació</string>
+    <string name="rate">Estimació</string>
+    <string name="rate_on_google_play">Valora a Google Play</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="do_you_like_this_app">T\'ha agradat l\'aplicació?</string>
+    <string name="do_you_like_this_app_short">T\'ha agradat l\'aplicació?</string>
+    <string name="close_icon">Icona de tancament</string>
+    <string name="monster_icon">Icona de monstre</string>
+    <string name="send">Enviar</string>
+    <string name="enter_text">Introduïu text</string>
+    <string name="help_to_improve">Si us plau, ajudeu-nos a millorar l\'aplicació!</string>
+    <string name="describe_what_you_didnt_like">Descriu el que no t\'ha agradat</string>
+    <string name="delete">Suprimeix</string>
+    <string name="delete_theme">esborra el tema</string>
+</resources>

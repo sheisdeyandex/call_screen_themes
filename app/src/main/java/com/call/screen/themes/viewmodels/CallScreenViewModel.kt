@@ -18,6 +18,7 @@ import com.call.screen.themes.data.dao.CallsDao
 import com.call.screen.themes.data.database.AppDatabase
 import com.call.screen.themes.data.model.*
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.flow
@@ -39,17 +40,33 @@ class CallScreenViewModel : ViewModel() {
     var downloadManager:DownloadManager? = null
     lateinit var request:DownloadManager.Request
     var contactsList = ArrayList<ContactsModel>()
-    var sharedPrefs:SharedPreferences?= null
+    lateinit var sharedPrefs:SharedPreferences
     var id: Long = 0
     var db: AppDatabase?= null
     var videoUri:Uri? = null
     fun storeToShow(dataObject: Any, prefName: String) {
         val dataObjectInJson = Gson().toJson(dataObject)
-        val edit = sharedPrefs?.edit()
+        val edit = sharedPrefs.edit()
         edit?.putString(prefName, dataObjectInJson)?.apply()
     }
+    fun saveArrayList(list:ArrayList<ContactsModel>) {
+        val editor= sharedPrefs.edit()
+        val gson = Gson()
+        val json = gson.toJson(list)
+        editor?.putString(Constants.Contacts, json)
+        editor?.apply()
+    }
+
+    fun getArrayList(): ArrayList<ContactsModel> {
+        val gson = Gson()
+        val json = sharedPrefs.getString(Constants.Contacts, null)
+        json?.let {
+            val type = object : TypeToken<ArrayList<ContactsModel>>() {}.type
+            return gson.fromJson(json, type)
+        }?:return ArrayList()
+    }
     fun <T> retrieveStoredObject(prefName: String, baseClass: Class<T>): T?{
-        val dataObject: String? = sharedPrefs?.getString(prefName, "")
+        val dataObject: String? = sharedPrefs.getString(prefName, "")
         return Gson().fromJson(dataObject, baseClass)
     }
     fun isApplied(id:String?):Boolean{

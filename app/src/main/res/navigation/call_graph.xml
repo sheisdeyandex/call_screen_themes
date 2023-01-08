@@ -14,11 +14,13 @@
             app:destination="@id/callScreen" />
         <action
             android:id="@+id/action_mainCallFragment_to_dialogPermissions"
-            app:popUpToInclusive="true"
             app:destination="@id/dialogPermissions" />
         <action
-            android:id="@+id/action_mainCallFragment_to_dialogPermissions2"
-            app:destination="@id/dialogPermissions" />
+            android:id="@+id/action_mainCallFragment_to_zeroStartFragment"
+            app:destination="@id/zeroStartFragment" />
+        <action
+            android:id="@+id/action_mainCallFragment_to_contactThemes"
+            app:destination="@id/contactThemes" />
     </fragment>
     <fragment android:id="@+id/callScreen"
         android:name="com.call.screen.themes.ui.fragments.CallScreenFragment"
@@ -32,18 +34,25 @@
             android:id="@+id/action_callScreen_to_dialogApplyTheme"
             app:popUpToInclusive="true"
             app:destination="@id/dialogApplyTheme" />
+        <action
+            android:id="@+id/action_callScreen_to_zeroStartFragment"
+            app:destination="@id/zeroStartFragment" />
     </fragment>
     <fragment
         android:id="@+id/contactsFragment"
         android:name="com.call.screen.themes.ui.fragments.ContactsFragment"
-        tools:layout="@layout/fragment_contacts"/>
+        tools:layout="@layout/fragment_contacts">
+        <action
+            android:id="@+id/action_contactsFragment_to_zeroStartFragment"
+            app:destination="@id/zeroStartFragment" />
+
+    </fragment>
     <dialog
         android:id="@+id/dialogPermissions"
         android:name="com.call.screen.themes.ui.dialogs.DialogPermissions"
         tools:layout="@layout/dialog_permissions">
         <action
             android:id="@+id/action_dialogPermissions_to_dialogPermissionOverApps"
-            app:popUpToInclusive="true"
             app:destination="@id/dialogPermissionOverApps" />
     </dialog>
     <dialog
@@ -54,4 +63,18 @@
         android:id="@+id/dialogApplyTheme"
         android:name="com.call.screen.themes.ui.dialogs.DialogApplyTheme"
         tools:layout="@layout/dialog_apply_theme"/>
+    <fragment android:id="@+id/zeroStartFragment"
+        android:name="com.call.screen.themes.ui.trashfromexample.part_two.ZeroStarFragment"
+        tools:layout="@layout/bottom_sheet2_zero_star"/>
+    <fragment android:id="@+id/contactThemes"
+        android:name="com.call.screen.themes.ui.fragments.ContactThemesFragment"
+        tools:layout="@layout/fragment_contact_themes">
+        <action
+            android:id="@+id/action_contactThemes_to_dialogDeleteTheme"
+            app:destination="@id/dialogDeleteTheme" />
+    </fragment>
+    <dialog
+        android:id="@+id/dialogDeleteTheme"
+        android:name="com.call.screen.themes.ui.dialogs.DialogDeleteTheme"
+        tools:layout="@layout/dialog_delete_theme"/>
 </navigation>

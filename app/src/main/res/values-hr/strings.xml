@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Upozorenje</string>
+    <string name="permissions_main_text">Dopustite potrebna dopuštenja da biste omogućili zaslon poziva.</string>
+    <string name="open">otvoren</string>
+    <string name="decline">Odbiti</string>
+    <string name="accept">Slažem se</string>
+    <string name="applyIt">Nanesite ga</string>
+    <string name="download">preuzimanje datoteka</string>
+    <string name="select_contacts">Odaberite Kontakti</string>
+    <string name="set">set</string>
+    <string name="call_screen">Call Screen</string>
+    <string name="flash_on_call">Flash na poziv</string>
+    <string name="contact_theme">Tema kontakta</string>
+    <string name="feedback">Povratne informacije</string>
+    <string name="share">Udio</string>
+    <string name="privacy_policy">Politika privatnosti</string>
+    <string name="enable_call_screen">Omogući Call Screen</string>
+    <string name="phonesandcontacts"><![CDATA[Telefon i kontakti]]></string>
+    <string name="phonesandcontactssubtitle">Za otkrivanje dolaznog poziva i prikaz kontakata</string>
+    <string name="screen_permission">Dopuštenje zaslona</string>
+    <string name="screen_permission_subtitle">Za prikaz zaslona poziva</string>
+    <string name="call_permission_subtitle">Da biste omogućili odgovaranje na pozive</string>
+    <string name="call_permission_title">Dopuštenje za poziv</string>
+    <string name="number_show_permission">Dozvola broja</string>
+    <string name="number_show_permission_subtitle">Za prikaz pozivnog broja</string>
+    <string name="to_show_call_screen">Za prikaz zaslona poziva</string>
+    <string name="call_screen_launched">Pokrenut zaslon poziva</string>
+    <string name="applied">Primijenjeno</string>
+    <string name="apply_theme">Primijeniti temu?</string>
+    <string name="apply_theme_subtitle">Primijeniti novu temu za zaslon pozivatelja?</string>
+    <string name="cancel">Otkazati</string>
+    <string name="apply">primijeniti</string>
+    <string name="privacy_policy_agreement">Nastavkom prihvaćate <a href="https://ponica.media/dynamic-island/privacy-policy/">Pravila o privatnosti</a> i <a href="https://ponica.media/dynamic-island/term-of-service/">Uvjeti usluge</a></string>
+
+    <string name="continue_title">Sljedeći</string>
+
+    <string name="subscription">Pretplata se automatski obnavlja po istoj cijeni i za isto razdoblje. Svoju pretplatu možete otkazati u bilo kojem trenutku na <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Prihvatiti</string>
+    <string name="onboard_title_1">dobrodošli u teme\nzaslona poziva</string>
+    <string name="onboard_desc_1">Za nastavak pročitajte i prihvatite: <a href="https://ponica.media/call-screen/privacy-policy/">Pravila o privatnosti</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Korisnički ugovor</a></string>
+    <string name="onboard_title_2">Preko 30 svijetlih\nekrana</string>
+    <string name="onboard_desc_2">Nove teme svaki mjesec</string>
+    <string name="onboard_title_3">Postavite jedinstveni video\nza svaki kontakt</string>
+    <string name="onboard_desc_3">Apstrakcije, pejzaži, kućni ljubimci i više</string>
+    <string name="onboard_title_4">Postavite bljeskalicu\nna poziv</string>
+    <string name="onboard_desc_4">Dodajte poseban efekt za više svjetline</string>
+
+    <string name="paywall_benefit_1">HD kvaliteta</string>
+    <string name="paywall_benefit_2">Nema oglašavanja</string>
+    <string name="paywall_benefit_3">Preko 30 ekrana</string>
+    <string name="reestablish">Ponovno uspostaviti</string>
+    <string name="paywall_title">PROBAJTE BESPLATNO\nBEZ OGLAŠAVANJA</string>
+    <string name="month_btn_title">3 dana besplatno</string>
+    <string name="month_desc">Nakon besplatne probe %1s mjesečno</string>
+    <string name="year_btn_title">7 dana besplatno</string>
+    <string name="year_desc">Nakon besplatne probe %1s godišnje</string>
+    <string name="like_this_app">Dajte nam 5 zvjezdica ako vam se svidjela aplikacija</string>
+    <string name="rate">Stopa</string>
+    <string name="rate_on_google_play">Ocijenite na Google Playu</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="do_you_like_this_app">Je li vam se svidjela aplikacija?</string>
+    <string name="do_you_like_this_app_short">Je li vam se svidjela\naplikacija?</string>
+    <string name="close_icon">Ikona za zatvaranje</string>
+    <string name="monster_icon">Ikona čudovišta</string>
+    <string name="send">Poslati</string>
+    <string name="enter_text">Unesite tekst</string>
+    <string name="help_to_improve">Pomozite nam poboljšati aplikaciju!</string>
+    <string name="describe_what_you_didnt_like">Opišite što vam se nije svidjelo</string>
+    <string name="delete">Izbrisati</string>
+    <string name="delete_theme">izbrisati temu</string>
+</resources>

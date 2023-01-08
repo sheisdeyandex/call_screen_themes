@@ -47,8 +47,8 @@ object Utils {
     var yearSub = "year2390"
     var monthSubLand = "3days.month349"
     var yearSubLand = "7days.year2790"
-    private var rateFirstDelaySec = 90L
-    private var rateSecondDelaySec = 45L
+    var rateFirstDelaySec = 90L
+    var rateSecondDelaySec = 45L
     private const val show_sub_screen = "show_sub_screen"
     private const val onboard_sub = "onboard_sub"
     private const val ads_delay_sec = "ads_delay_sec"

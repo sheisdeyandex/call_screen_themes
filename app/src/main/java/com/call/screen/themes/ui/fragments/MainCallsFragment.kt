@@ -6,6 +6,7 @@ import android.app.role.RoleManager
 import android.content.Context.MODE_PRIVATE
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
@@ -19,6 +20,8 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment.Companion.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
@@ -28,12 +31,14 @@ import com.call.screen.themes.R
 import com.call.screen.themes.data.database.AppDatabase
 import com.call.screen.themes.databinding.FragmentMainCallsBinding
 import com.call.screen.themes.services.BroadcastService
+import com.call.screen.themes.ui.MainActivity
 import com.call.screen.themes.ui.adapters.MainAdapter
+import com.call.screen.themes.usecases.InterUseCase
+import com.call.screen.themes.usecases.SentEmail
 import com.call.screen.themes.usecases.SpacesItemDecoration
 import com.call.screen.themes.viewmodels.MainCallsViewModel
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
@@ -55,16 +60,24 @@ class MainCallsFragment : Fragment() {
         binding = FragmentMainCallsBinding.inflate(inflater,container,false)
         return binding?.root
     }
-
+    fun showRate(){
+        val rateApp = (requireActivity() as MainActivity).rateApp
+        rateApp.observe(viewLifecycleOwner){
+            if (it){
+                findNavController().navigate(R.id.action_mainCallFragment_to_zeroStartFragment)
+                rateApp.postValue(false)
+            }
+        }
+    }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
             viewModel.roleManager= requireContext().getSystemService(AppCompatActivity.ROLE_SERVICE) as RoleManager
         }
+        showRate()
         initRecycler()
         initDb()
         checkAndGetDataFromDb()
-
         binding?.ivMenu?.setOnClickListener {
             if (binding?.drawer?.isDrawerOpen(GravityCompat.START) == true){
                 binding?.drawer?.closeDrawer(GravityCompat.START)
@@ -73,6 +86,23 @@ class MainCallsFragment : Fragment() {
                 binding?.drawer?.openDrawer(GravityCompat.START)
             }
         }
+        binding?.tvPrivacyPolicy?.setOnClickListener {
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data =
+                Uri.parse("https://ponica.media/call-screen/privacy-policy/")
+            context?.startActivity(openURL)
+        }
+        binding?.tvContactTheme?.setOnClickListener {
+            findNavController().navigate(R.id.action_mainCallFragment_to_contactThemes)
+        }
+        binding?.tvFeedBack?.setOnClickListener {
+            SentEmail.sendEmail("",requireActivity())
+        }
+        binding?.tvShare?.setOnClickListener {
+            SentEmail.share(requireContext())
+        }
+        InterUseCase.init(requireContext())
+
         initSharedPrefs()
     }
     private fun initSharedPrefs(){
@@ -167,8 +197,8 @@ class MainCallsFragment : Fragment() {
 
     private fun initServerError(){
         viewModel.error.observe(viewLifecycleOwner){
-            binding?.main?.let { it1 -> Snackbar.make(it1, "server error: $it", Snackbar.LENGTH_LONG).show() }
-            if (viewModel.count<=1){
+      //      binding?.main?.let { it1 -> Snackbar.make(it1, "server error: $it", Snackbar.LENGTH_LONG).show() }
+            if (viewModel.count<=2){
                 initVideosList()
             }
         }

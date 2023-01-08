@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Avertizare</string>
+    <string name="permissions_main_text">Vă rugăm să acordați permisiunile necesare pentru a activa ecranul de apel.</string>
+    <string name="open">deschis</string>
+    <string name="decline">Declin</string>
+    <string name="accept">De acord</string>
+    <string name="applyIt">Aplică-l</string>
+    <string name="download">Descarca</string>
+    <string name="select_contacts">Selectați Contacte</string>
+    <string name="set">A stabilit</string>
+    <string name="call_screen">Ecran de apel</string>
+    <string name="flash_on_call">Flash la apel</string>
+    <string name="contact_theme">Tema de contact</string>
+    <string name="feedback">Părere</string>
+    <string name="share">Acțiune</string>
+    <string name="privacy_policy">Politica de confidențialitate</string>
+    <string name="enable_call_screen">Activați ecranul de apeluri</string>
+    <string name="phonesandcontacts"><![CDATA[Telefon și contacte]]></string>
+    <string name="phonesandcontactssubtitle">Pentru a detecta apelurile primite și pentru a afișa contacte</string>
+    <string name="screen_permission">Permisiune pentru ecran</string>
+    <string name="screen_permission_subtitle">Pentru a afișa ecranul de apel</string>
+    <string name="call_permission_subtitle">Pentru a activa răspunsul la apeluri</string>
+    <string name="call_permission_title">Permisiune de apel</string>
+    <string name="number_show_permission">Permisiune de număr</string>
+    <string name="number_show_permission_subtitle">Pentru a afișa numărul de apel</string>
+    <string name="to_show_call_screen">Pentru a afișa ecranul de apel</string>
+    <string name="call_screen_launched">S-a lansat ecranul de apeluri</string>
+    <string name="applied">Aplicat</string>
+    <string name="apply_theme">Aplicați tema?</string>
+    <string name="apply_theme_subtitle">Aplicați o nouă temă pentru ecranul apelantului?</string>
+    <string name="cancel">Anulare</string>
+    <string name="apply">aplica</string>
+    <string name="privacy_policy_agreement">Continuând, sunteți de acord cu <a href="https://ponica.media/dynamic-island/privacy-policy/">Politica de confidențialitate</a> și cu <a href="https://ponica.media/dynamic-island/term-of-service/">Termeni și condiții</a></string>
+
+    <string name="continue_title">Următorul</string>
+
+    <string name="subscription">Abonamentul se va reînnoi automat la același preț și pentru aceeași perioadă. Vă puteți anula oricând abonamentul pe <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Accept</string>
+    <string name="onboard_title_1">Bine ați venit să\napelați teme de ecran</string>
+    <string name="onboard_desc_1">Pentru a continua, vă rugăm să citiți și să fiți de acord cu: <a href="https://ponica.media/call-screen/privacy-policy/">Politica de confidențialitate</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Acord de utilizare</a></string>
+    <string name="onboard_title_2">Peste 30 de ecrane\nluminoase</string>
+    <string name="onboard_desc_2">Teme noi în fiecare lună</string>
+    <string name="onboard_title_3">Setați un videoclip unic pentru\nfiecare contact</string>
+    <string name="onboard_desc_3">Abstracții, peisaje, animale de companie și multe altele</string>
+    <string name="onboard_title_4">Setați blițul\nla apel</string>
+    <string name="onboard_desc_4">Adaugă un efect special pentru mai multă luminozitate</string>
+
+    <string name="paywall_benefit_1">Calitate HD</string>
+    <string name="paywall_benefit_2">Fără publicitate</string>
+    <string name="paywall_benefit_3">Peste 30 de ecrane</string>
+    <string name="reestablish">Restabili</string>
+    <string name="paywall_title">ÎNCERCAȚI GRATUIT\nFĂRĂ PUBLICITATE</string>
+    <string name="month_btn_title">3 zile gratis</string>
+    <string name="month_desc">După încercarea gratuită %1s pe lună</string>
+    <string name="year_btn_title">7 zile gratuite</string>
+    <string name="year_desc">După încercarea gratuită %1s pe an</string>
+    <string name="like_this_app">Vă rugăm să ne acordați 5 stele dacă v-a plăcut aplicația</string>
+    <string name="rate">Rată</string>
+    <string name="rate_on_google_play">Evaluați pe Google Play</string>
+    <string name="yes">da</string>
+    <string name="no">Nu</string>
+    <string name="do_you_like_this_app">Ți-a plăcut aplicația?</string>
+    <string name="do_you_like_this_app_short">Ți-a plăcut\naplicația?</string>
+    <string name="close_icon">Închide pictograma</string>
+    <string name="monster_icon">Pictograma Monstru</string>
+    <string name="send">Trimite</string>
+    <string name="enter_text">Introduceți text</string>
+    <string name="help_to_improve">Vă rugăm să ne ajutați să îmbunătățim aplicația!</string>
+    <string name="describe_what_you_didnt_like">Descrie ce nu ți-a plăcut</string>
+    <string name="delete">Șterge</string>
+    <string name="delete_theme">sterge subiectul</string>
+</resources>

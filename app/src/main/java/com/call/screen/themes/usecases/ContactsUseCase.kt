@@ -44,7 +44,7 @@ object ContactsUseCase {
                 name = cursor.getString(nameIndex)
                 number = cursor.getString(numberIndex)
                 number = number.replace(" ", "")
-                contactList.add(ContactsModel(id= id,name =  name, number =  number, lookUpKey =  lookupKey,contactPhone))
+                contactList.add(ContactsModel(id= id,name =  name, number =  number, lookUpKey =  lookupKey,contactPhone,null))
             }
         }.also {
            return contactList

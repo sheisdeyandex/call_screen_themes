@@ -14,6 +14,14 @@ import com.call.screen.themes.data.model.AdapterModel
 import com.call.screen.themes.databinding.ItemAllowPermissionsBinding
 import com.call.screen.themes.databinding.ItemCallScreensBinding
 import com.call.screen.themes.singleton.CallApplication
+import com.call.screen.themes.ui.MainActivity
+import com.call.screen.themes.usecases.InterUseCase
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
+import java.util.*
+import java.util.concurrent.TimeUnit
 
 const val VIEW_TYPE_PERMISSION = 2
 const val VIEW_TYPE_ITEM = 1
@@ -35,10 +43,34 @@ class MainAdapter(val permissions:Boolean): RecyclerView.Adapter<RecyclerView.Vi
             binding.tvTitle.text = adapterModel.title
             Glide.with(binding.ivProfile.context).load(adapterModel.gender).into(binding.ivProfile)
             binding.tvName.text = adapterModel.name
-            binding.mView.setOnClickListener {
+            binding.mView.setOnClickListener {view->
                 CallApplication.adapterModel = adapterModel
-                it.findNavController().navigate(R.id.action_mainCallFragment_to_callScreen)
+
+                CoroutineScope(Dispatchers.Main).launch {
+                    val showAd =Calendar.getInstance().time.time- CallApplication.lastInterShowTimer.time
+                    val seconds = TimeUnit.MILLISECONDS.toSeconds(showAd)
+
+                    if (seconds>30&&!CallApplication.premium){
+
+                        InterUseCase.show(binding.mView.context as MainActivity)
+                        InterUseCase.fullScreenCallback().collect{
+                            if (it){
+                                view.findNavController().navigate(R.id.action_mainCallFragment_to_callScreen)
+                            }
+                            else{
+                                view.findNavController().navigate(R.id.action_mainCallFragment_to_callScreen)
+                            }
+                        }
+                    }
+                    else{
+                        view.findNavController().navigate(R.id.action_mainCallFragment_to_callScreen)
+                    }
+
+                }
+
+
             }
+
             Glide.with(binding.rbDownloaded.context).load(adapterModel.isDownloaded).into(binding.rbDownloaded)
         }
     }

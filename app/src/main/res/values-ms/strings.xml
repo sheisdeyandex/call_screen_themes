@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Amaran</string>
+    <string name="permissions_main_text">Sila benarkan kebenaran yang diperlukan untuk mendayakan skrin panggilan.</string>
+    <string name="open">buka</string>
+    <string name="decline">Tolak</string>
+    <string name="accept">Setuju</string>
+    <string name="applyIt">Sapukan ia</string>
+    <string name="download">Muat turun</string>
+    <string name="select_contacts">Pilih Kenalan</string>
+    <string name="set">Tetapkan</string>
+    <string name="call_screen">Skrin Panggilan</string>
+    <string name="flash_on_call">Denyar semasa Panggilan</string>
+    <string name="contact_theme">Tema Kenalan</string>
+    <string name="feedback">Maklum balas</string>
+    <string name="share">Kongsi</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+    <string name="enable_call_screen">Dayakan Skrin Panggilan</string>
+    <string name="phonesandcontacts"><![CDATA[Telefon & Kenalan]]></string>
+    <string name="phonesandcontactssubtitle">Untuk mengesan panggilan masuk dan menunjukkan kenalan</string>
+    <string name="screen_permission">Kebenaran Skrin</string>
+    <string name="screen_permission_subtitle">Untuk menunjukkan skrin panggilan</string>
+    <string name="call_permission_subtitle">Untuk mendayakan menjawab panggilan</string>
+    <string name="call_permission_title">Keizinan Panggilan</string>
+    <string name="number_show_permission">Kebenaran Nombor</string>
+    <string name="number_show_permission_subtitle">Untuk menunjukkan nombor incall</string>
+    <string name="to_show_call_screen">Untuk menunjukkan skrin panggilan</string>
+    <string name="call_screen_launched">Skrin panggilan dilancarkan</string>
+    <string name="applied">Digunakan</string>
+    <string name="apply_theme">Gunakan Tema?</string>
+    <string name="apply_theme_subtitle">Gunakan tema baharu untuk skrin pemanggil anda?</string>
+    <string name="cancel">Batal</string>
+    <string name="apply">Mohon</string>
+    <string name="privacy_policy_agreement">Dengan meneruskan anda bersetuju menerima <a href="https://ponica.media/dynamic-island/privacy-policy/">Dasar Privasi</a> dan <a href="https://ponica.media/dynamic-island/term-of-service/">Syarat perkhidmatan</a></string>
+
+    <string name="continue_title">Seterusnya</string>
+
+    <string name="subscription">Langganan akan diperbaharui secara automatik pada harga yang sama dan untuk tempoh yang sama. Anda boleh membatalkan langganan anda pada bila-bila masa di <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Terima</string>
+    <string name="onboard_title_1">selamat datang ke\ncall screen themes</string>
+    <string name="onboard_desc_1">Untuk meneruskan, sila baca dan bersetuju untuk: <a href="https://ponica.media/call-screen/privacy-policy/">Dasar Privasi</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Perjanjian Pengguna</a></string>
+    <string name="onboard_title_2">Lebih 30 skrin\nterang</string>
+    <string name="onboard_desc_2">Tema baharu setiap bulan</string>
+    <string name="onboard_title_3">Tetapkan video unik untuk\nsetiap kenalan</string>
+    <string name="onboard_desc_3">Abstraksi, landskap, haiwan peliharaan dan banyak lagi</string>
+    <string name="onboard_title_4">Tetapkan lampu denyar\npada panggilan</string>
+    <string name="onboard_desc_4">Tambah kesan khas untuk lebih kecerahan</string>
+
+    <string name="paywall_benefit_1">Kualiti HD</string>
+    <string name="paywall_benefit_2">Tiada pengiklanan</string>
+    <string name="paywall_benefit_3">Lebih 30 skrin</string>
+    <string name="reestablish">Simpan semula</string>
+    <string name="paywall_title">CUBA PERCUMA\nTANPA IKLAN</string>
+    <string name="month_btn_title">3 hari percuma</string>
+    <string name="month_desc">Selepas Percubaan Percuma %1s sebulan</string>
+    <string name="year_btn_title">7 hari percuma</string>
+    <string name="year_desc">Selepas Percubaan Percuma %1s setiap tahun</string>
+    <string name="like_this_app">Sila berikan kami 5 bintang jika anda menyukai aplikasinya</string>
+    <string name="rate">Kadar</string>
+    <string name="rate_on_google_play">Nilaikan di Google Play</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="do_you_like_this_app">Adakah anda menyukai apl itu?</string>
+    <string name="do_you_like_this_app_short">Adakah anda menyukai\napl itu?</string>
+    <string name="close_icon">Tutup Ikon</string>
+    <string name="monster_icon">Ikon Raksasa</string>
+    <string name="send">Hantar</string>
+    <string name="enter_text">Masukkan teks</string>
+    <string name="help_to_improve">Tolong bantu kami menambah baik apl!</string>
+    <string name="describe_what_you_didnt_like">Terangkan perkara yang anda tidak suka</string>
+    <string name="delete">Padam</string>
+    <string name="delete_theme">memadam topik</string>
+</resources>

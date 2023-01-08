@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Varoitus</string>
+    <string name="permissions_main_text">Anna tarvittavat luvat ottaaksesi puhelunäytön käyttöön.</string>
+    <string name="open">avata</string>
+    <string name="decline">Hylkää</string>
+    <string name="accept">Olla samaa mieltä</string>
+    <string name="applyIt">Käytä sitä</string>
+    <string name="download">ladata</string>
+    <string name="select_contacts">Valitse Yhteystiedot</string>
+    <string name="set">Aseta</string>
+    <string name="call_screen">Puhelunäyttö</string>
+    <string name="flash_on_call">Flash on Call</string>
+    <string name="contact_theme">Yhteydenottoteema</string>
+    <string name="feedback">Palaute</string>
+    <string name="share">Jaa</string>
+    <string name="privacy_policy">Tietosuojakäytäntö</string>
+    <string name="enable_call_screen">Ota Call Screen käyttöön</string>
+    <string name="phonesandcontacts"><![CDATA[Puhelin ja yhteystiedot]]></string>
+    <string name="phonesandcontactssubtitle">Tunnistaaksesi saapuvan puhelun ja näyttääksesi yhteystiedot</string>
+    <string name="screen_permission">Näytön lupa</string>
+    <string name="screen_permission_subtitle">Näytä puhelunäyttö</string>
+    <string name="call_permission_subtitle">Ota puheluihin vastaaminen käyttöön</string>
+    <string name="call_permission_title">Soita lupa</string>
+    <string name="number_show_permission">Numeron lupa</string>
+    <string name="number_show_permission_subtitle">Soittonumeron näyttäminen</string>
+    <string name="to_show_call_screen">Näytä puhelunäyttö</string>
+    <string name="call_screen_launched">Puhelunäyttö käynnistettiin</string>
+    <string name="applied">Sovellettu</string>
+    <string name="apply_theme">Otetaanko teema käyttöön?</string>
+    <string name="apply_theme_subtitle">Otetaanko soittajan näytölle uusi teema?</string>
+    <string name="cancel">Peruuttaa</string>
+    <string name="apply">Käytä</string>
+    <string name="privacy_policy_agreement">Jatkamalla hyväksyt <a href="https://ponica.media/dynamic-island/privacy-policy/">tietosuojakäytännön</a> ja <a href="https://ponica.media/dynamic-island/term-of-service/">Käyttöehdot</a></string>
+
+    <string name="continue_title">Seuraava</string>
+
+    <string name="subscription">Tilaus uusitaan automaattisesti samaan hintaan ja samaksi ajaksi. Voit peruuttaa tilauksesi milloin tahansa <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Hyväksyä</string>
+    <string name="onboard_title_1">Tervetuloa soittamaan\nnäytön teemoja</string>
+    <string name="onboard_desc_1">Jatka lukemalla ja hyväksymällä: <a href="https://ponica.media/call-screen/privacy-policy/">tietosuojakäytäntö</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Käyttäjäsopimus</a></string>
+    <string name="onboard_title_2">Yli 30 kirkasta\nnäyttöä</string>
+    <string name="onboard_desc_2">Uusia teemoja joka kuukausi</string>
+    <string name="onboard_title_3">Aseta jokaiselle kontaktille\nainutlaatuinen video</string>
+    <string name="onboard_desc_3">Abstraktioita, maisemia, lemmikkejä ja paljon muuta</string>
+    <string name="onboard_title_4">Aseta salamavalo\npuheluun</string>
+    <string name="onboard_desc_4">Lisää kirkkautta lisäämällä erikoistehoste</string>
+
+    <string name="paywall_benefit_1">HD laatu</string>
+    <string name="paywall_benefit_2">Ei mainontaa</string>
+    <string name="paywall_benefit_3">Yli 30 näyttöä</string>
+    <string name="reestablish">Perustaa uudelleen</string>
+    <string name="paywall_title">KOKEILE ILMAISEKSI\nILMAN MAINOSTA</string>
+    <string name="month_btn_title">3 päivää ilmaiseksi</string>
+    <string name="month_desc">Ilmaisen kokeilun jälkeen %1s kuukaudessa</string>
+    <string name="year_btn_title">7 päivää ilmaiseksi</string>
+    <string name="year_desc">Ilmaisen kokeilun jälkeen %1s vuodessa</string>
+    <string name="like_this_app">Anna meille 5 tähteä, jos pidit sovelluksesta</string>
+    <string name="rate">Rate</string>
+    <string name="rate_on_google_play">Arvioi Google Playssa</string>
+    <string name="yes">Joo</string>
+    <string name="no">Ei</string>
+    <string name="do_you_like_this_app">Piditkö sovelluksesta?</string>
+    <string name="do_you_like_this_app_short">Piditkö\nsovelluksesta?</string>
+    <string name="close_icon">Sulje kuvake</string>
+    <string name="monster_icon">Hirviön kuvake</string>
+    <string name="send">Lähettää</string>
+    <string name="enter_text">Kirjoita teksti</string>
+    <string name="help_to_improve">Auta meitä parantamaan sovellusta!</string>
+    <string name="describe_what_you_didnt_like">Kuvaile mistä et pitänyt</string>
+    <string name="delete">Poistaa</string>
+    <string name="delete_theme">poista aihe</string>
+</resources>

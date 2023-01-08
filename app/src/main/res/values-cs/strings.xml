@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Varování</string>
+    <string name="permissions_main_text">Povolte potřebná oprávnění k aktivaci obrazovky hovoru.</string>
+    <string name="open">otevřít</string>
+    <string name="decline">Pokles</string>
+    <string name="accept">Souhlasit</string>
+    <string name="applyIt">Aplikujte to</string>
+    <string name="download">Stažení</string>
+    <string name="select_contacts">Vyberte Kontakty</string>
+    <string name="set">Soubor</string>
+    <string name="call_screen">Obrazovka volajícího</string>
+    <string name="flash_on_call">Blesk při volání</string>
+    <string name="contact_theme">Motiv kontaktu</string>
+    <string name="feedback">Zpětná vazba</string>
+    <string name="share">Podíl</string>
+    <string name="privacy_policy">Zásady ochrany osobních údajů</string>
+    <string name="enable_call_screen">Povolit prověřování volajícího</string>
+    <string name="phonesandcontacts"><![CDATA[Telefon a kontakty]]></string>
+    <string name="phonesandcontactssubtitle">Pro detekci příchozího hovoru a zobrazení kontaktů</string>
+    <string name="screen_permission">Povolení obrazovky</string>
+    <string name="screen_permission_subtitle">Pro zobrazení obrazovky hovoru</string>
+    <string name="call_permission_subtitle">Chcete-li povolit přijímání hovorů</string>
+    <string name="call_permission_title">Povolení k hovoru</string>
+    <string name="number_show_permission">Číslo povolení</string>
+    <string name="number_show_permission_subtitle">Chcete-li zobrazit telefonní číslo</string>
+    <string name="to_show_call_screen">Pro zobrazení obrazovky hovoru</string>
+    <string name="call_screen_launched">Spuštěna obrazovka volání</string>
+    <string name="applied">Aplikovaný</string>
+    <string name="apply_theme">Použít motiv?</string>
+    <string name="apply_theme_subtitle">Použít nové téma pro obrazovku volajícího?</string>
+    <string name="cancel">Zrušení</string>
+    <string name="apply">Aplikovat</string>
+    <string name="privacy_policy_agreement">Pokračováním souhlasíte s <a href="https://ponica.media/dynamic-island/privacy-policy/">Zásady ochrany osobních údajů</a> a <a href="https://ponica.media/dynamic-island/term-of-service/">Podmínky služby</a></string>
+
+    <string name="continue_title">Další</string>
+
+    <string name="subscription">Předplatné se automaticky obnoví za stejnou cenu a na stejné období. Předplatné můžete kdykoli zrušit na <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Akceptovat</string>
+    <string name="onboard_title_1">Vítejte v\ncall screen themes</string>
+    <string name="onboard_desc_1">Chcete-li pokračovat, přečtěte si a odsouhlaste: <a href="https://ponica.media/call-screen/privacy-policy/">Zásady ochrany osobních údajů</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Uživatelská smlouva</a></string>
+    <string name="onboard_title_2">Více než 30 jasných\nobrazovek</string>
+    <string name="onboard_desc_2">Každý měsíc nová témata</string>
+    <string name="onboard_title_3">Nastavte jedinečné video\npro každý kontakt</string>
+    <string name="onboard_desc_3">Abstrakce, krajiny, domácí mazlíčci a další</string>
+    <string name="onboard_title_4">Nastavte blesk\nna hovor</string>
+    <string name="onboard_desc_4">Přidejte speciální efekt pro větší jas</string>
+
+    <string name="paywall_benefit_1">HD kvalitě</string>
+    <string name="paywall_benefit_2">Žádná reklama</string>
+    <string name="paywall_benefit_3">Více než 30 obrazovek</string>
+    <string name="reestablish">Obnovit</string>
+    <string name="paywall_title">VYZKOUŠEJTE SI TO ZDARMA\nBEZ REKLAMY</string>
+    <string name="month_btn_title">3 dny zdarma</string>
+    <string name="month_desc">Po bezplatné zkušební verzi %1s za měsíc</string>
+    <string name="year_btn_title">7 dní zdarma</string>
+    <string name="year_desc">Po bezplatné zkušební verzi %1s za rok</string>
+    <string name="like_this_app">Pokud se vám aplikace líbila, dejte nám 5 hvězdiček</string>
+    <string name="rate">Hodnotit</string>
+    <string name="rate_on_google_play">Ohodnoťte na Google Play</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="do_you_like_this_app">Líbila se vám aplikace?</string>
+    <string name="do_you_like_this_app_short">Líbila se vám\naplikace?</string>
+    <string name="close_icon">Zavřít ikonu</string>
+    <string name="monster_icon">Ikona monstra</string>
+    <string name="send">Poslat</string>
+    <string name="enter_text">Zadejte text</string>
+    <string name="help_to_improve">Pomozte nám vylepšit aplikaci!</string>
+    <string name="describe_what_you_didnt_like">Popište, co se vám nelíbilo</string>
+    <string name="delete">Vymazat</string>
+    <string name="delete_theme">smazat téma</string>
+</resources>

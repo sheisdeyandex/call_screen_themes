@@ -18,4 +18,7 @@
     <color name="contacts_text_color_black">#E6000000</color>
     <color name="back_background">#1A3F51B5</color>
     <color name="blue">#3F51B5</color>
+    <color name="part_two_button_color">#45ED55</color>
+    <color name="feedback_input_bg_color">#F2F3F5</color>
+    <color name="feedback_input_text_color">#ADADAD</color>
 </resources>

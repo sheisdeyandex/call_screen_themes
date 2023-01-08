@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+
+    <string name="warning">Avvertimento</string>
+    <string name="permissions_main_text">Si prega di consentire le autorizzazioni necessarie per abilitare la schermata di chiamata.</string>
+    <string name="open">aprire</string>
+    <string name="decline">Declino</string>
+    <string name="accept">Accettare</string>
+    <string name="applyIt">Applicalo</string>
+    <string name="download">Scaricamento</string>
+    <string name="select_contacts">Seleziona Contatti</string>
+    <string name="set">Impostare</string>
+    <string name="call_screen">Schermata di chiamata</string>
+    <string name="flash_on_call">Flash su chiamata</string>
+    <string name="contact_theme">Tema di contatto</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Condividere</string>
+    <string name="privacy_policy">politica sulla riservatezza</string>
+    <string name="enable_call_screen">Abilita filtro chiamata</string>
+    <string name="phonesandcontacts"><![CDATA[Telefono e contatti]]></string>
+    <string name="phonesandcontactssubtitle">Per rilevare la chiamata in arrivo e mostrare i contatti</string>
+    <string name="screen_permission">Autorizzazione dello schermo</string>
+    <string name="screen_permission_subtitle">Per mostrare la schermata della chiamata</string>
+    <string name="call_permission_subtitle">Per abilitare la risposta alle chiamate</string>
+    <string name="call_permission_title">Autorizzazione chiamata</string>
+    <string name="number_show_permission">Autorizzazione Numero</string>
+    <string name="number_show_permission_subtitle">Per mostrare il numero di chiamata</string>
+    <string name="to_show_call_screen">Per mostrare la schermata della chiamata</string>
+    <string name="call_screen_launched">Schermata di chiamata avviata</string>
+    <string name="applied">Applicato</string>
+    <string name="apply_theme">Applica tema?</string>
+    <string name="apply_theme_subtitle">Applicare un nuovo tema per la schermata del chiamante?</string>
+    <string name="cancel">Annulla</string>
+    <string name="apply">Fare domanda a</string>
+    <string name="privacy_policy_agreement">Continuando accetti la <a href="https://ponica.media/dynamic-island/privacy-policy/">Privacy Policy</a> e i <a href="https://ponica.media/dynamic-island/term-of-service/">Termini di servizio</a></string>
+
+    <string name="continue_title">Prossimo</string>
+
+    <string name="subscription">L\'abbonamento si rinnoverà automaticamente allo stesso prezzo e per lo stesso periodo. Puoi annullare l\'abbonamento in qualsiasi momento su <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Accettare</string>
+    <string name="onboard_title_1">benvenuto a\ncall screen themes</string>
+    <string name="onboard_desc_1">Per continuare, leggi e accetta: <a href="https://ponica.media/call-screen/privacy-policy/">Politica sulla riservatezza</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Accordo per gli utenti</a></string>
+    <string name="onboard_title_2">Oltre 30 schermi\nluminosi</string>
+    <string name="onboard_desc_2">Nuovi temi ogni mese</string>
+    <string name="onboard_title_3">Imposta un video unico\nper ogni contatto</string>
+    <string name="onboard_desc_3">Astrazioni, paesaggi, animali domestici e altro ancora</string>
+    <string name="onboard_title_4">Imposta la luce del flash\nsulla chiamata</string>
+    <string name="onboard_desc_4">Aggiungi un effetto speciale per una maggiore luminosità</string>
+
+    <string name="paywall_benefit_1">Qualità HD</string>
+    <string name="paywall_benefit_2">Nessuna pubblicità</string>
+    <string name="paywall_benefit_3">Oltre 30 schermi</string>
+    <string name="reestablish">Ristabilire</string>
+    <string name="paywall_title">PROVALO GRATIS\nSENZA PUBBLICITÀ</string>
+    <string name="month_btn_title">3 giorni gratis</string>
+    <string name="month_desc">Dopo la prova gratuita %1s al mese</string>
+    <string name="year_btn_title">7 giorni gratis</string>
+    <string name="year_desc">Dopo la prova gratuita %1s per anno</string>
+    <string name="like_this_app">Per favore, dacci 5 stelle se ti è piaciuta l\'app</string>
+    <string name="rate">Valutare</string>
+    <string name="rate_on_google_play">Vota su Google Play</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="do_you_like_this_app">Ti è piaciuta l\'app?</string>
+    <string name="do_you_like_this_app_short">Ti è piaciuta\nl\'app?</string>
+    <string name="close_icon">Icona Chiudi</string>
+    <string name="monster_icon">Icona del mostro</string>
+    <string name="send">Spedire</string>
+    <string name="enter_text">Inserire il testo</string>
+    <string name="help_to_improve">Aiutaci a migliorare l\'app!</string>
+    <string name="describe_what_you_didnt_like">Descrivi cosa non ti è piaciuto</string>
+    <string name="delete">Elimina</string>
+    <string name="delete_theme">eliminare argomento</string>
+</resources>

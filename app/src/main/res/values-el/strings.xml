@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Προειδοποίηση</string>
+    <string name="permissions_main_text">Επιτρέψτε τα απαραίτητα δικαιώματα για την ενεργοποίηση της οθόνης κλήσης.</string>
+    <string name="open">Άνοιξε</string>
+    <string name="decline">Πτώση</string>
+    <string name="accept">Συμφωνώ</string>
+    <string name="applyIt">Εφαρμόστε το</string>
+    <string name="download">Κατεβάστε</string>
+    <string name="select_contacts">Επιλέξτε Επαφές</string>
+    <string name="set">Σειρά</string>
+    <string name="call_screen">Οθόνη κλήσης</string>
+    <string name="flash_on_call">Flash on Call</string>
+    <string name="contact_theme">Θέμα επικοινωνίας</string>
+    <string name="feedback">Ανατροφοδότηση</string>
+    <string name="share">Μερίδιο</string>
+    <string name="privacy_policy">Πολιτική Απορρήτου</string>
+    <string name="enable_call_screen">Ενεργοποιήστε την οθόνη κλήσης</string>
+    <string name="phonesandcontacts"><![CDATA[Τηλέφωνο & Επαφές]]></string>
+    <string name="phonesandcontactssubtitle">Για ανίχνευση εισερχόμενης κλήσης και εμφάνιση επαφών</string>
+    <string name="screen_permission">Άδεια οθόνης</string>
+    <string name="screen_permission_subtitle">Για εμφάνιση της οθόνης κλήσης</string>
+    <string name="call_permission_subtitle">Για να ενεργοποιήσετε την απάντηση κλήσεων</string>
+    <string name="call_permission_title">Άδεια κλήσης</string>
+    <string name="number_show_permission">Αριθμός Άδεια</string>
+    <string name="number_show_permission_subtitle">Για να εμφανίσετε τον αριθμό κλήσης</string>
+    <string name="to_show_call_screen">Για εμφάνιση της οθόνης κλήσης</string>
+    <string name="call_screen_launched">Η οθόνη κλήσης ξεκίνησε</string>
+    <string name="applied">Εφαρμοσμένος</string>
+    <string name="apply_theme">Εφαρμογή θέματος;</string>
+    <string name="apply_theme_subtitle">Εφαρμογή νέου θέματος για την οθόνη καλούντος;</string>
+    <string name="cancel">Ματαίωση</string>
+    <string name="apply">Ισχύουν</string>
+    <string name="privacy_policy_agreement">Συνεχίζοντας συμφωνείτε <a href="https://ponica.media/dynamic-island/privacy-policy/">Πολιτική Απορρήτου</a> και <a href="https://ponica.media/dynamic-island/term-of-service/">Οροι χρήσης</a></string>
+
+    <string name="continue_title">Επόμενο</string>
+
+    <string name="subscription">Η συνδρομή θα ανανεώνεται αυτόματα στην ίδια τιμή και για την ίδια περίοδο. Μπορείτε να ακυρώσετε τη συνδρομή σας ανά πάσα στιγμή στο <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Αποδέχομαι</string>
+    <string name="onboard_title_1">Καλωσήρθες στ\ncall screen themes</string>
+    <string name="onboard_desc_1">Για να συνεχίσετε, διαβάστε και αποδεχτείτε: <a href="https://ponica.media/call-screen/privacy-policy/">Πολιτική Απορρήτου</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Συμφωνία Χρήστη</a></string>
+    <string name="onboard_title_2">Πάνω από 30\nφωτεινές οθόνες</string>
+    <string name="onboard_desc_2">Νέα θέματα κάθε μήνα</string>
+    <string name="onboard_title_3">Ορίστε ένα μοναδικό\nβίντεο για κάθε επαφή</string>
+    <string name="onboard_desc_3">Αφηρήσεις, τοπία, κατοικίδια και πολλά άλλα</string>
+    <string name="onboard_title_4">Ρυθμίστε το φως του\nφλας στην κλήση</string>
+    <string name="onboard_desc_4">Προσθέστε ένα ειδικό εφέ για περισσότερη φωτεινότητα</string>
+
+    <string name="paywall_benefit_1">Ποιότητα HD</string>
+    <string name="paywall_benefit_2">Χωρίς διαφήμιση</string>
+    <string name="paywall_benefit_3">Πάνω από 30 οθόνες</string>
+    <string name="reestablish">Ιδρύω πάλι</string>
+    <string name="paywall_title">ΔΟΚΙΜΑΣΤΕ ΤΟ ΔΩΡΕΑΝ\nΧΩΡΙΣ ΔΙΑΦΗΜΙΣΗ</string>
+    <string name="month_btn_title">3 μέρες δωρεάν</string>
+    <string name="month_desc">Μετά από δωρεάν δοκιμή %1s κάθε μήνα</string>
+    <string name="year_btn_title">7 ημέρες δωρεάν</string>
+    <string name="year_desc">Μετά από δωρεάν δοκιμή %1s ανά έτος</string>
+    <string name="like_this_app">Δώστε μας 5 αστέρια αν σας άρεσε η εφαρμογή</string>
+    <string name="rate">Τιμή</string>
+    <string name="rate_on_google_play">Βαθμολογήστε στο Google Play</string>
+    <string name="yes">Ναί</string>
+    <string name="no">Οχι</string>
+    <string name="do_you_like_this_app">Σας άρεσε η εφαρμογή;?</string>
+    <string name="do_you_like_this_app_short">Σας άρεσε η\nεφαρμογή;?</string>
+    <string name="close_icon">Κλείσιμο εικονίδιο</string>
+    <string name="monster_icon">Εικονίδιο τέρας</string>
+    <string name="send">Στείλετε</string>
+    <string name="enter_text">Εισαγάγετε κείμενο</string>
+    <string name="help_to_improve">Βοηθήστε μας να βελτιώσουμε την εφαρμογή!</string>
+    <string name="describe_what_you_didnt_like">Περιγράψτε τι δεν σας άρεσε</string>
+    <string name="delete">Διαγράφω</string>
+    <string name="delete_theme">διαγραφή θέματος</string>
+</resources>

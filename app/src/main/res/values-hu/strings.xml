@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Figyelem</string>
+    <string name="permissions_main_text">Adja meg a szükséges engedélyeket a hívásképernyő engedélyezéséhez.</string>
+    <string name="open">nyisd ki</string>
+    <string name="decline">Hanyatlás</string>
+    <string name="accept">Egyetért</string>
+    <string name="applyIt">Alkalmazza</string>
+    <string name="download">Letöltés</string>
+    <string name="select_contacts">Válassza a Névjegyek lehetőséget</string>
+    <string name="set">Készlet</string>
+    <string name="call_screen">Call Screen</string>
+    <string name="flash_on_call">Flash on Call</string>
+    <string name="contact_theme">Kapcsolati téma</string>
+    <string name="feedback">Visszacsatolás</string>
+    <string name="share">Részvény</string>
+    <string name="privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="enable_call_screen">A Call Screen engedélyezése</string>
+    <string name="phonesandcontacts"><![CDATA[Telefon és névjegyek]]></string>
+    <string name="phonesandcontactssubtitle">A bejövő hívás észlelése és a névjegyek megjelenítése</string>
+    <string name="screen_permission">Képernyőengedély</string>
+    <string name="screen_permission_subtitle">A hívásképernyő megjelenítéséhez</string>
+    <string name="call_permission_subtitle">Hívásfogadás engedélyezése</string>
+    <string name="call_permission_title">Hívásengedély</string>
+    <string name="number_show_permission">Szám Engedély</string>
+    <string name="number_show_permission_subtitle">A hívószám megjelenítéséhez</string>
+    <string name="to_show_call_screen">A hívásképernyő megjelenítéséhez</string>
+    <string name="call_screen_launched">A hívás képernyő elindult</string>
+    <string name="applied">Alkalmazott</string>
+    <string name="apply_theme">Alkalmazza a témát?</string>
+    <string name="apply_theme_subtitle">Új témát alkalmaz a hívó képernyőjén?</string>
+    <string name="cancel">Megszünteti</string>
+    <string name="apply">Alkalmaz</string>
+    <string name="privacy_policy_agreement">A folytatással elfogadja az <a href="https://ponica.media/dynamic-island/privacy-policy/">Adatvédelmi szabályzatot</a> és a <a href="https://ponica.media/dynamic-island/term-of-service/">Szolgáltatási feltételeket</a></string>
+
+    <string name="continue_title">Következő</string>
+
+    <string name="subscription">Az előfizetés automatikusan megújul ugyanazon az áron és ugyanarra az időtartamra. Előfizetését bármikor lemondhatja a <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Elfogad</string>
+    <string name="onboard_title_1">Üdvözöljük\ncall screen themes</string>
+    <string name="onboard_desc_1">A folytatáshoz kérjük, olvassa el és fogadja el: <a href="https://ponica.media/call-screen/privacy-policy/">Adatvédelmi szabályzat</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Felhasználói Szerződés</a></string>
+    <string name="onboard_title_2">Több mint 30 fényes\nképernyő</string>
+    <string name="onboard_desc_2">Minden hónapban új témák</string>
+    <string name="onboard_title_3">Állítson be egyedi videót\nminden névjegyhez</string>
+    <string name="onboard_desc_3">Absztrakciók, tájak, háziállatok és egyebek</string>
+    <string name="onboard_title_4">Állítsa be a vaku fényét\na hívásra</string>
+    <string name="onboard_desc_4">Adjon hozzá speciális effektust a nagyobb fényerő érdekében</string>
+
+    <string name="paywall_benefit_1">HD minőség</string>
+    <string name="paywall_benefit_2">Nincs reklám</string>
+    <string name="paywall_benefit_3">Több mint 30 képernyő</string>
+    <string name="reestablish">Újra létrehozni</string>
+    <string name="paywall_title">PRÓBÁLJA KI INGYEN\nHIRDETÉS NÉLKÜL</string>
+    <string name="month_btn_title">3 nap ingyenes</string>
+    <string name="month_desc">Ingyenes próbaverzió után %1s havonta</string>
+    <string name="year_btn_title">7 nap ingyenes</string>
+    <string name="year_desc">Ingyenes próbaverzió után %1s évente</string>
+    <string name="like_this_app">Kérjük, adjon nekünk 5 csillagot, ha tetszett az alkalmazás</string>
+    <string name="rate">Mérték</string>
+    <string name="rate_on_google_play">Értékeljen a Google Play</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="do_you_like_this_app">Tetszett az alkalmazás?</string>
+    <string name="do_you_like_this_app_short">Tetszett az\nalkalmazás?</string>
+    <string name="close_icon">Ikon bezárása</string>
+    <string name="monster_icon">Szörny ikon</string>
+    <string name="send">Küld</string>
+    <string name="enter_text">Írja be a szöveget</string>
+    <string name="help_to_improve">Kérjük, segítsen nekünk az alkalmazás fejlesztésében!</string>
+    <string name="describe_what_you_didnt_like">Írd le, mi nem tetszett</string>
+    <string name="delete">Töröl</string>
+    <string name="delete_theme">téma törlése</string>
+</resources>

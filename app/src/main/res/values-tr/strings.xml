@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Uyarı</string>
+    <string name="permissions_main_text">Arama ekranını etkinleştirmek için lütfen gerekli izinlere izin verin.</string>
+    <string name="open">açık</string>
+    <string name="decline">Reddetmek</string>
+    <string name="accept">Kabul etmek</string>
+    <string name="applyIt">Uygula</string>
+    <string name="download">İndirmek</string>
+    <string name="select_contacts">Kişileri Seçin</string>
+    <string name="set">Ayarlamak</string>
+    <string name="call_screen">Çağrı Ekranı</string>
+    <string name="flash_on_call">Çağrıda Flaş</string>
+    <string name="contact_theme">İletişim Teması</string>
+    <string name="feedback">Geri bildirim</string>
+    <string name="share">Paylaşmak</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="enable_call_screen">Çağrı Filtrelemeyi Etkinleştir</string>
+    <string name="phonesandcontacts"><![CDATA[Telefon ve Kişiler]]></string>
+    <string name="phonesandcontactssubtitle">Gelen aramayı algılamak ve kişileri göstermek için</string>
+    <string name="screen_permission">Ekran İzni</string>
+    <string name="screen_permission_subtitle">Arama ekranını göstermek için</string>
+    <string name="call_permission_subtitle">Aramaları cevaplamayı etkinleştirmek için</string>
+    <string name="call_permission_title">Arama İzni</string>
+    <string name="number_show_permission">Sayı İzni</string>
+    <string name="number_show_permission_subtitle">Çağrı numarasını göstermek için</string>
+    <string name="to_show_call_screen">Arama ekranını göstermek için</string>
+    <string name="call_screen_launched">Arama ekranı başlatıldı</string>
+    <string name="applied">Uygulamalı</string>
+    <string name="apply_theme">Tema Uygulansın mı?</string>
+    <string name="apply_theme_subtitle">Arayan ekranınız için yeni tema uygulansın mı?</string>
+    <string name="cancel">İptal etmek</string>
+    <string name="apply">Uygulamak</string>
+    <string name="privacy_policy_agreement">Devam ederek <a href="https://ponica.media/dynamic-island/privacy-policy/">Gizlilik Politikası</a> ve <a href="https://ponica.media/dynamic-island/term-of-service/">Hizmet şartları</a></string>
+
+    <string name="continue_title">Sonraki</string>
+
+    <string name="subscription">Abonelik, aynı fiyat üzerinden ve aynı süre için otomatik olarak yenilenecektir. Aboneliğinizi istediğiniz zaman <a href="https://play.google.com/store/account/subscriptions">Google Play</a>\'de iptal edebilirsiniz</string>
+
+    <string name="agree">Kabul</string>
+    <string name="onboard_title_1">arama ekranı temalarına\nhoş geldiniz</string>
+    <string name="onboard_desc_1">Devam etmek için lütfen aşağıdakileri okuyun ve kabul edin: <a href="https://ponica.media/call-screen/privacy-policy/">Gizlilik Politikası</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Kullanıcı Sözleşmesi</a></string>
+    <string name="onboard_title_2">30\'dan fazla\nparlak ekran</string>
+    <string name="onboard_desc_2">Her ay yeni temalar</string>
+    <string name="onboard_title_3">Her kişi için benzersiz bir\nvideo ayarlayın</string>
+    <string name="onboard_desc_3">Soyutlamalar, manzaralar, evcil hayvanlar ve daha fazlası</string>
+    <string name="onboard_title_4">Görüşmede flaş\nışığını ayarlayın</string>
+    <string name="onboard_desc_4">Daha fazla parlaklık için özel bir efekt ekleyin</string>
+
+    <string name="paywall_benefit_1">HD kalitesi</string>
+    <string name="paywall_benefit_2">Reklam yok</string>
+    <string name="paywall_benefit_3">30\'dan fazla ekran</string>
+    <string name="reestablish">yeniden kurmak</string>
+    <string name="paywall_title">REKLAM OLMADAN\nÜCRETSİZ DENEYİN</string>
+    <string name="month_btn_title">3 gün ücretsiz</string>
+    <string name="month_desc">Ücretsiz Denemeden %1s Sonra ayda</string>
+    <string name="year_btn_title">7 gün ücretsiz</string>
+    <string name="year_desc">Ücretsiz Denemeden %1s Sonra yılda</string>
+    <string name="like_this_app">Uygulamayı beğendiyseniz lütfen bize 5 yıldız verin</string>
+    <string name="rate">Oran</string>
+    <string name="rate_on_google_play">Google Play\'de oy verin</string>
+    <string name="yes">Evet</string>
+    <string name="no">Numara</string>
+    <string name="do_you_like_this_app">Uygulamayı beğendiniz mi?</string>
+    <string name="do_you_like_this_app_short">Uygulamayı\nbeğendiniz mi?</string>
+    <string name="close_icon">Simgeyi Kapat</string>
+    <string name="monster_icon">Canavar Simgesi</string>
+    <string name="send">Göndermek</string>
+    <string name="enter_text">Metni girin</string>
+    <string name="help_to_improve">Lütfen uygulamayı geliştirmemize yardım edin!</string>
+    <string name="describe_what_you_didnt_like">Neyi beğenmediğini açıkla</string>
+    <string name="delete">Silmek</string>
+    <string name="delete_theme">konuyu sil</string>
+</resources>

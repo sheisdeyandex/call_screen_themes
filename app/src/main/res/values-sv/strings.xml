@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Varning</string>
+    <string name="permissions_main_text">Tillåt nödvändiga behörigheter för att aktivera samtalsskärmen.</string>
+    <string name="open">öppen</string>
+    <string name="decline">Nedgång</string>
+    <string name="accept">Hålla med</string>
+    <string name="applyIt">Applicera det</string>
+    <string name="download">Ladda ner</string>
+    <string name="select_contacts">Välj Kontakter</string>
+    <string name="set">Uppsättning</string>
+    <string name="call_screen">Samtalsskärm</string>
+    <string name="flash_on_call">Flash on Call</string>
+    <string name="contact_theme">Kontakttema</string>
+    <string name="feedback">Respons</string>
+    <string name="share">Dela med sig</string>
+    <string name="privacy_policy">Integritetspolicy</string>
+    <string name="enable_call_screen">Aktivera samtalsskärm</string>
+    <string name="phonesandcontacts"><![CDATA[Telefon & kontakter]]></string>
+    <string name="phonesandcontactssubtitle">För att upptäcka inkommande samtal och visa kontakter</string>
+    <string name="screen_permission">Skärmtillstånd</string>
+    <string name="screen_permission_subtitle">För att visa samtalsskärmen</string>
+    <string name="call_permission_subtitle">För att kunna svara på samtal</string>
+    <string name="call_permission_title">Ring tillstånd</string>
+    <string name="number_show_permission">Nummerbehörighet</string>
+    <string name="number_show_permission_subtitle">För att visa inringningsnummer</string>
+    <string name="to_show_call_screen">För att visa samtalsskärmen</string>
+    <string name="call_screen_launched">Samtalsskärmen startas</string>
+    <string name="applied">Applicerad</string>
+    <string name="apply_theme">Vill du använda tema?</string>
+    <string name="apply_theme_subtitle">Vill du använda nytt tema för din uppringningsskärm?</string>
+    <string name="cancel">Avbryt</string>
+    <string name="apply">Tillämpa</string>
+    <string name="privacy_policy_agreement">Genom att fortsätta godkänner du <a href="https://ponica.media/dynamic-island/privacy-policy/">Integritetspolicy</a> och <a href="https://ponica.media/dynamic-island/term-of-service/">Användarvillkor</a></string>
+
+    <string name="continue_title">Nästa</string>
+
+    <string name="subscription">Prenumerationen förnyas automatiskt till samma pris och under samma period. Du kan säga upp din prenumeration när som helst på <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Acceptera</string>
+    <string name="onboard_title_1">Välkommen till\ncall screen themes</string>
+    <string name="onboard_desc_1">För att fortsätta, läs och godkänn: <a href="https://ponica.media/call-screen/privacy-policy/">Integritetspolicy</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Användaravtal</a></string>
+    <string name="onboard_title_2">Över 30 ljusstarka\nskärmar</string>
+    <string name="onboard_desc_2">Nya teman varje månad</string>
+    <string name="onboard_title_3">Ställ in en unik video\nför varje kontakt</string>
+    <string name="onboard_desc_3">Abstraktioner, landskap, husdjur och mer</string>
+    <string name="onboard_title_4">Ställ in blixtljuset på\nsamtalet</string>
+    <string name="onboard_desc_4">Lägg till en specialeffekt för mer ljusstyrka</string>
+
+    <string name="paywall_benefit_1">HD-kvalitet</string>
+    <string name="paywall_benefit_2">Ingen reklam</string>
+    <string name="paywall_benefit_3">Över 30 skärmar</string>
+    <string name="reestablish">Återupprätta</string>
+    <string name="paywall_title">PROVA DET GRATIS\nUTAN ANNONS</string>
+    <string name="month_btn_title">3 dagar gratis</string>
+    <string name="month_desc">Efter gratis provperiod %1s per månad</string>
+    <string name="year_btn_title">7 dagar gratis</string>
+    <string name="year_desc">Efter gratis provperiod %1s per år</string>
+    <string name="like_this_app">Vänligen ge oss 5 stjärnor om du gillade appen</string>
+    <string name="rate">Betygsätta</string>
+    <string name="rate_on_google_play">Betygsätt på Google Play</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="do_you_like_this_app">Gillade du appen?</string>
+    <string name="do_you_like_this_app_short">Gillade\ndu appen?</string>
+    <string name="close_icon">Stäng ikon</string>
+    <string name="monster_icon">Monster ikon</string>
+    <string name="send">Skicka</string>
+    <string name="enter_text">Skriv text</string>
+    <string name="help_to_improve">Snälla hjälp oss att förbättra appen!</string>
+    <string name="describe_what_you_didnt_like">Beskriv vad du inte gillade</string>
+    <string name="delete">Radera</string>
+    <string name="delete_theme">ta bort ämne</string>
+</resources>

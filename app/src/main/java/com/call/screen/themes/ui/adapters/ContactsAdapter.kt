@@ -6,9 +6,11 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.call.screen.themes.data.model.ContactsModel
+import com.call.screen.themes.databinding.ItemContactThemesBinding
 import com.call.screen.themes.databinding.ItemContactsBinding
 
 class ContactsAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+    var addedContactsList:ArrayList<ContactsModel> = ArrayList()
     private val differCallback = object : DiffUtil.ItemCallback<ContactsModel>() {
         override fun areItemsTheSame(oldItem: ContactsModel, newItem: ContactsModel): Boolean {
             return oldItem.id == newItem.id
@@ -22,13 +24,21 @@ class ContactsAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     inner class MainViewHolder(val binding: ItemContactsBinding) : RecyclerView.ViewHolder(binding.root){
         fun bind(contactsModel: ContactsModel){
             binding.tvName.text = contactsModel.name
+            binding.rbContacts.setOnCheckedChangeListener { buttonView, isChecked ->
+                if (isChecked){
+                    addedContactsList.add(contactsModel)
+                }
+                else{
+                    if (addedContactsList.contains(contactsModel)){
+                        addedContactsList.remove(contactsModel)
+                    }
+                }
+            }
         }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return MainViewHolder(ItemContactsBinding.inflate(LayoutInflater.from(parent.context),parent,false))
-
-
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {

@@ -5,6 +5,7 @@ import android.content.Context.MODE_PRIVATE
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
+import android.telecom.Call
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -27,6 +28,7 @@ import com.call.screen.themes.data.model.MainModel
 import com.call.screen.themes.data.model.VideoModel
 import com.call.screen.themes.databinding.FragmentCallScreenBinding
 import com.call.screen.themes.singleton.CallApplication
+import com.call.screen.themes.ui.MainActivity
 import com.call.screen.themes.viewmodels.CallScreenViewModel
 import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.MediaItem
@@ -61,6 +63,16 @@ class CallScreenFragment : Fragment() {
         initTexts()
         observeApply()
         binding?.ivProfile?.let { Glide.with(requireContext()).load(adapterModel.gender).into(it) }
+        showRate()
+    }
+    fun showRate(){
+        val rateApp = (requireActivity() as MainActivity).rateApp
+        rateApp.observe(viewLifecycleOwner){
+            if (it){
+                findNavController().navigate(R.id.action_callScreen_to_zeroStartFragment)
+                rateApp.postValue(false)
+            }
+        }
     }
     private fun initTexts(){
         binding?.tvName?.text = adapterModel.name
@@ -89,7 +101,16 @@ class CallScreenFragment : Fragment() {
                 CallApplication.applyTheme.postValue(false)
                 binding?.btnApply?.isEnabled = false
                 binding?.btnApply?.text = getString(R.string.applied)
-                viewModel.storeToShow(MainModel(adapterModel._id,viewModel.videoUri.toString(),viewModel.contactsList),Constants.sharedPrefsContactsName)
+                if (CallApplication.contactsScreen.isNotEmpty()){
+                    val list = viewModel.getArrayList()
+
+                    list.addAll(CallApplication.contactsScreen)
+                    viewModel.saveArrayList(list)
+                    CallApplication.contactsScreen = ArrayList()
+                }
+                else{
+                    viewModel.storeToShow(MainModel(adapterModel._id,viewModel.videoUri.toString(),viewModel.contactsList),Constants.sharedPrefsContactsName)
+                }
             }
         }
     }
@@ -107,6 +128,7 @@ class CallScreenFragment : Fragment() {
                 )
             }
             else{
+                CallApplication.theme = adapterModel.prevyu
                 it.findNavController().navigate(R.id.action_callScreen_to_contactsFragment)
             }
         }
@@ -120,6 +142,8 @@ class CallScreenFragment : Fragment() {
             viewModel.getVideoFromDb(adapterModel._id)?.let {
                 withContext(Dispatchers.Main){
                     viewModel.videoUri = Uri.parse(it.uri)
+                    CallApplication.videoUri = it.uri
+
                     loadUriToPlayer(Uri.parse(it.uri))
                 }
             }?:download()
@@ -153,6 +177,7 @@ class CallScreenFragment : Fragment() {
                 withContext(Dispatchers.IO){
                     uri?.let {
                         viewModel.videoUri = uri
+                        CallApplication.videoUri = uri.toString()
                         viewModel.insertDb( VideoModel(adapterModel._id,uri.toString()) )
                         viewModel.updateDb(DataModel(adapterModel._id,adapterModel.title,adapterModel.theme,adapterModel.isPremium,adapterModel.__v,adapterModel.prevyu,true))
                     }?: withContext(Dispatchers.Main){

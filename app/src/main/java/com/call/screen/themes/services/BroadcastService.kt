@@ -21,7 +21,7 @@ class BroadcastService:Service() {
             createNotificationChannel()
         val notificationBuilder = NotificationCompat.Builder(this, channelId )
         val notification = notificationBuilder.setOngoing(true)
-            .setSmallIcon(R.mipmap.ic_launcher)
+            .setSmallIcon(R.drawable.icon)
             .setPriority(PRIORITY_DEFAULT)
             .setContentText(getString(R.string.call_screen_launched))
             .setCategory(Notification.CATEGORY_SERVICE)

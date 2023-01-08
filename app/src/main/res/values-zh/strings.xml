@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">警告</string>
+    <string name="permissions_main_text">请授予必要的权限以启用通话屏幕.</string>
+    <string name="open">打开</string>
+    <string name="decline">衰退</string>
+    <string name="accept">同意</string>
+    <string name="applyIt">应用它</string>
+    <string name="download">下载</string>
+    <string name="select_contacts">选择联系人</string>
+    <string name="set">放</string>
+    <string name="call_screen">呼叫屏幕</string>
+    <string name="flash_on_call">随叫随到</string>
+    <string name="contact_theme">联系主题</string>
+    <string name="feedback">回馈</string>
+    <string name="share">分享</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="enable_call_screen">启用呼叫屏幕</string>
+    <string name="phonesandcontacts"><![CDATA[电话和联系人]]></string>
+    <string name="phonesandcontactssubtitle">检测来电并显示联系人</string>
+    <string name="screen_permission">屏幕权限</string>
+    <string name="screen_permission_subtitle">显示通话屏幕</string>
+    <string name="call_permission_subtitle">启用接听电话</string>
+    <string name="call_permission_title">调用权限</string>
+    <string name="number_show_permission">号码权限</string>
+    <string name="number_show_permission_subtitle">显示来电号码</string>
+    <string name="to_show_call_screen">显示通话屏幕</string>
+    <string name="call_screen_launched">呼叫屏幕已启动</string>
+    <string name="applied">应用</string>
+    <string name="apply_theme">应用主题？</string>
+    <string name="apply_theme_subtitle">为您的来电屏幕应用新主题？</string>
+    <string name="cancel">取消</string>
+    <string name="apply">申请</string>
+    <string name="privacy_policy_agreement">继续即表示您同意 <a href="https://ponica.media/dynamic-island/privacy-policy/">隐私政策</a> 和 <a href="https://ponica.media/dynamic-island/term-of-service/">服务条款</a></string>
+
+    <string name="continue_title">下一个</string>
+
+    <string name="subscription">订阅将以相同的价格和相同的期限自动续订。 您可以随时在 <a href="https://play.google.com/store/account/subscriptions">Google Play</a> 上取消订阅</string>
+
+    <string name="agree">接受</string>
+    <string name="onboard_title_1">欢迎来到\ncall screen themes</string>
+    <string name="onboard_desc_1">要继续，请阅读并同意： <a href="https://ponica.media/call-screen/privacy-policy/">隐私政策</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">用户协议</a></string>
+    <string name="onboard_title_2">超过30亮\n屏幕</string>
+    <string name="onboard_desc_2">每个月都有新主题</string>
+    <string name="onboard_title_3">设置一个独特的视频\n对于每个联系人</string>
+    <string name="onboard_desc_3">抽象、风景、宠物等</string>
+    <string name="onboard_title_4">设置闪光灯\n在通话中</string>
+    <string name="onboard_desc_4">添加特殊效果以获得更多亮度</string>
+
+    <string name="paywall_benefit_1">高清画质</string>
+    <string name="paywall_benefit_2">无广告</string>
+    <string name="paywall_benefit_3">超过30个屏幕</string>
+    <string name="reestablish">重建</string>
+    <string name="paywall_title">免费试用\n无广告</string>
+    <string name="month_btn_title">3天免费</string>
+    <string name="month_desc">免费试用后 %1s 每月</string>
+    <string name="year_btn_title">7天免费</string>
+    <string name="year_desc">免费试用后 %1s 每年</string>
+    <string name="like_this_app">如果您喜欢该应用程序，请给我们 5 颗星</string>
+    <string name="rate">速度</string>
+    <string name="rate_on_google_play">在 Google Play 上评分</string>
+    <string name="yes">是的</string>
+    <string name="no">不</string>
+    <string name="do_you_like_this_app">你喜欢这个应用程序吗？</string>
+    <string name="do_you_like_this_app_short">你喜欢这个应\n用程序吗?</string>
+    <string name="close_icon">关闭图标</string>
+    <string name="monster_icon">怪物图标</string>
+    <string name="send">发送</string>
+    <string name="enter_text">输入文字</string>
+    <string name="help_to_improve">请帮助我们改进应用程序！</string>
+    <string name="describe_what_you_didnt_like">描述你不喜欢的地方</string>
+    <string name="delete">删除</string>
+    <string name="delete_theme">删除话题</string>
+</resources>

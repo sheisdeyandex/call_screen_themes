@@ -29,12 +29,14 @@ import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
 import com.call.screen.themes.Constants
 import com.call.screen.themes.R
+import com.call.screen.themes.data.model.ContactsModel
 import com.call.screen.themes.data.model.MainModel
 import com.call.screen.themes.singleton.CallApplication
 import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.MediaItem
 import com.google.android.exoplayer2.ui.PlayerView
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import de.hdodenhof.circleimageview.CircleImageView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -53,7 +55,7 @@ class CallService:LifecycleService() {
     private var mDisplay: Display? = null
     private var layoutView: View? = null
     private var windowManager: WindowManager? = null
-    var sharedPrefs: SharedPreferences? = null
+    lateinit var sharedPrefs: SharedPreferences
     var video: PlayerView? = null
     private var params: WindowManager.LayoutParams? = null
     var numberText = MutableLiveData<String>()
@@ -70,11 +72,17 @@ class CallService:LifecycleService() {
         number = layoutView?.findViewById(R.id.tvNumber)
     }
 
+    private fun getArrayList(): ArrayList<ContactsModel> {
+        val gson = Gson()
+        val json = sharedPrefs.getString(Constants.Contacts, null)
+        json?.let {
+            val type = object : TypeToken<ArrayList<ContactsModel>>() {}.type
+            return gson.fromJson(json, type)
+        }?:return ArrayList()
+    }
     private val Context.camaraManager: CameraManager? get() = getSystemService(CameraManager::class.java)
-
     private fun Context.toggleFlashLight(on: Boolean) {
         camaraManager?.run {
-
             val firstCameraWithFlash = cameraIdList.find { camera ->
                 getCameraCharacteristics(camera).keys.any { it == FLASH_INFO_AVAILABLE }
             }
@@ -152,14 +160,35 @@ class CallService:LifecycleService() {
         initViews()
         showPhoto()
         showFlashLight()
-        numberText.observe(this){
-            number?.text = it
+        numberText.observe(this){numberObserved->
+            val contactList = getArrayList()
+            var contact = false
+            video = layoutView?.findViewById(R.id.pVFullVideo)
+            if (contactList.isNotEmpty()){
+                contactList.forEach {
+                    if (it.number==numberObserved){
+                        initPlayer(Uri.parse(it.uri))
+                        contact = true
+                    }
+                }.also {
+                    if (!contact){
+                        val mainUri =retrieveStoredObject(Constants.sharedPrefsContactsName, MainModel::class.java)?.uri
+                        initPlayer(Uri.parse(mainUri))
+                    }
+                 }
+             }
+            else{
+                val mainUri =retrieveStoredObject(Constants.sharedPrefsContactsName, MainModel::class.java)?.uri
+                mainUri?.let {
+                    initPlayer(Uri.parse(it))
+                }?:stopSelf()
+
+            }
+            number?.text = numberObserved
         }
-        video = layoutView?.findViewById(R.id.pVFullVideo)
         val tm = getSystemService(TELECOM_SERVICE) as TelecomManager
 
-        initPlayer(Uri.parse(retrieveStoredObject(Constants.sharedPrefsContactsName, MainModel::class.java)?.uri))
-        btnAnswer?.setOnClickListener {
+         btnAnswer?.setOnClickListener {
             if (ActivityCompat.checkSelfPermission(
                     this,
                     Manifest.permission.ANSWER_PHONE_CALLS
@@ -199,8 +228,12 @@ class CallService:LifecycleService() {
             .build()
             .also { exoPlayer ->
                 video?.player = exoPlayer
-                val mediaItem = uri?.let { MediaItem.fromUri(it) }
-                mediaItem?.let { exoPlayer.setMediaItem(it) }
+                val mediaItem = uri?.let {
+                    MediaItem.fromUri(it)
+                }
+                mediaItem?.let {
+                    exoPlayer.setMediaItem(it)
+                }
                 exoPlayer.prepare()
                 exoPlayer.playWhenReady  = true
                 exoPlayer.repeatMode = ExoPlayer.REPEAT_MODE_ONE

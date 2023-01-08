@@ -198,7 +198,7 @@
                     android:src="@drawable/drawer_call_screen_icon"
                     />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/call_screen"
                     android:textColor="@color/blue"
@@ -206,6 +206,8 @@
                     app:layout_constraintTop_toTopOf="@+id/ivCallScreen"
                     app:layout_constraintBottom_toBottomOf="@+id/ivCallScreen"
                     app:layout_constraintStart_toEndOf="@+id/glText"
+                    app:layout_constraintEnd_toStartOf="@+id/swCallScreen"
+                    android:paddingEnd="5dp"
                     />
                 <com.google.android.material.switchmaterial.SwitchMaterial
                     android:id="@+id/swCallScreen"
@@ -226,7 +228,7 @@
                     android:src="@drawable/drawer_flash_on_call_icon"
                     />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/flash_on_call"
                     android:textColor="@color/blue"
@@ -234,6 +236,8 @@
                     app:layout_constraintTop_toTopOf="@+id/ivFlashOnCall"
                     app:layout_constraintBottom_toBottomOf="@+id/ivFlashOnCall"
                     app:layout_constraintStart_toEndOf="@+id/glText"
+                    app:layout_constraintEnd_toStartOf="@+id/swFlashOnCall"
+                    android:paddingEnd="5dp"
                     />
                 <com.google.android.material.switchmaterial.SwitchMaterial
                     android:id="@+id/swFlashOnCall"
@@ -254,7 +258,8 @@
                     android:src="@drawable/drawer_contact_theme_icon"
                     />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/tvContactTheme"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/contact_theme"
                     android:textColor="@color/blue"
@@ -262,6 +267,7 @@
                     app:layout_constraintTop_toTopOf="@+id/ivContactTheme"
                     app:layout_constraintBottom_toBottomOf="@+id/ivContactTheme"
                     app:layout_constraintStart_toEndOf="@+id/glText"
+                    app:layout_constraintWidth_percent="0.6"
                     />
                 <View
                     android:layout_width="0dp"
@@ -283,7 +289,8 @@
                     android:src="@drawable/drawer_feedback_icon"
                     />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/tvFeedBack"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/feedback"
                     android:textColor="@color/blue"
@@ -291,6 +298,7 @@
                     app:layout_constraintTop_toTopOf="@+id/ivFeedback"
                     app:layout_constraintBottom_toBottomOf="@+id/ivFeedback"
                     app:layout_constraintStart_toEndOf="@+id/glText"
+                    app:layout_constraintWidth_percent="0.6"
                     />
                 <ImageView
                     android:id="@+id/ivShare"
@@ -303,7 +311,8 @@
                     android:src="@drawable/drawer_share_icon"
                     />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/tvShare"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/share"
                     android:textColor="@color/blue"
@@ -311,6 +320,7 @@
                     app:layout_constraintTop_toTopOf="@+id/ivShare"
                     app:layout_constraintBottom_toBottomOf="@+id/ivShare"
                     app:layout_constraintStart_toEndOf="@+id/glText"
+                    app:layout_constraintWidth_percent="0.6"
                     />
                 <ImageView
                     android:id="@+id/ivPrivacyPolicy"
@@ -323,7 +333,8 @@
                     android:src="@drawable/drawer_privacy_policy_icon"
                     />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/tvPrivacyPolicy"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/privacy_policy"
                     android:textColor="@color/blue"
@@ -331,6 +342,7 @@
                     app:layout_constraintTop_toTopOf="@+id/ivPrivacyPolicy"
                     app:layout_constraintBottom_toBottomOf="@+id/ivPrivacyPolicy"
                     app:layout_constraintStart_toEndOf="@+id/glText"
+                    app:layout_constraintWidth_percent="0.6"
                     />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.navigation.NavigationView>

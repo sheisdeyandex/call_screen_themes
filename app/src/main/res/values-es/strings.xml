@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">Advertencia</string>
+    <string name="permissions_main_text">Permita los permisos necesarios para habilitar la pantalla de llamadas.</string>
+    <string name="open">abierto</string>
+    <string name="decline">Rechazar</string>
+    <string name="accept">Aceptar</string>
+    <string name="applyIt">Apliquelo</string>
+    <string name="download">Descargar</string>
+    <string name="select_contacts">Seleccione Contactos</string>
+    <string name="set">Colocar</string>
+    <string name="call_screen">Pantalla de llamada</string>
+    <string name="flash_on_call">Flash en llamada</string>
+    <string name="contact_theme">Contact Theme</string>
+    <string name="feedback">Tema de contacto</string>
+    <string name="share">Cuota</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="enable_call_screen">Habilitar pantalla de llamada</string>
+    <string name="phonesandcontacts"><![CDATA[Los contactos del teléfono]]></string>
+    <string name="phonesandcontactssubtitle">Para detectar llamadas entrantes y mostrar contactos</string>
+    <string name="screen_permission">Permiso de pantalla</string>
+    <string name="screen_permission_subtitle">Para mostrar la pantalla de llamada</string>
+    <string name="call_permission_subtitle">Para habilitar responder llamadas</string>
+    <string name="call_permission_title">Permiso de llamada</string>
+    <string name="number_show_permission">Permiso de número</string>
+    <string name="number_show_permission_subtitle">Para mostrar el número de llamada entrante</string>
+    <string name="to_show_call_screen">Para mostrar la pantalla de llamada</string>
+    <string name="call_screen_launched">Pantalla de llamada lanzada</string>
+    <string name="applied">Aplicado</string>
+    <string name="apply_theme">¿Aplicar tema?</string>
+    <string name="apply_theme_subtitle">¿Aplicar un nuevo tema para la pantalla de la persona que llama?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="apply">Solicitar</string>
+    <string name="privacy_policy_agreement">Al continuar, acepta la <a href="https://ponica.media/dynamic-island/privacy-policy/">Política de privacidad</a> y los <a href="https://ponica.media/dynamic-island/term-of-service/">Términos de servicio</a></string>
+
+    <string name="continue_title">Próximo</string>
+
+    <string name="subscription">La suscripción se renovará automáticamente al mismo precio y por el mismo período. Puedes cancelar tu suscripción en cualquier momento en <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">Aceptar</string>
+    <string name="onboard_title_1">Bienvenido a\ncall screen themes</string>
+    <string name="onboard_desc_1">Para continuar, lea y acepte: <a href="https://ponica.media/call-screen/privacy-policy/">Política de privacidad</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">Acuerdo del Usuario</a></string>
+    <string name="onboard_title_2">Más de 30 pantallas\nbrillantes</string>
+    <string name="onboard_desc_2">Temas nuevos cada mes</string>
+    <string name="onboard_title_3">Establece un video único\npara cada contacto</string>
+    <string name="onboard_desc_3">Abstracciones, paisajes, mascotas y más</string>
+    <string name="onboard_title_4">Establecer la luz del flash\nen la llamada</string>
+    <string name="onboard_desc_4">Añade un efecto especial para más brillo.</string>
+
+    <string name="paywall_benefit_1">HD calidad</string>
+    <string name="paywall_benefit_2">Sin publicidad</string>
+    <string name="paywall_benefit_3">Más de 30 pantallas</string>
+    <string name="reestablish">Restablecer</string>
+    <string name="paywall_title">PRUÉBALO GRATIS\nSIN PUBLICIDAD</string>
+    <string name="month_btn_title">3 días gratis</string>
+    <string name="month_desc">Después de la prueba gratuita %1s por mes</string>
+    <string name="year_btn_title">7 días gratis</string>
+    <string name="year_desc">Después de la prueba gratuita %1s por año</string>
+    <string name="like_this_app">Danos 5 estrellas si te gustó la aplicación.</string>
+    <string name="rate">Velocidad</string>
+    <string name="rate_on_google_play">Valora en Google Play</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="do_you_like_this_app">¿Te gustó la aplicación?</string>
+    <string name="do_you_like_this_app_short">¿Te gustó\nla aplicación?</string>
+    <string name="close_icon">Cerrar icono</string>
+    <string name="monster_icon">Icono de monstruo</string>
+    <string name="send">Enviar</string>
+    <string name="enter_text">Ingrese texto</string>
+    <string name="help_to_improve">¡Ayúdanos a mejorar la aplicación!</string>
+    <string name="describe_what_you_didnt_like">Describe lo que no te gustó</string>
+    <string name="delete">Borrar</string>
+    <string name="delete_theme">borrar tema</string>
+</resources>

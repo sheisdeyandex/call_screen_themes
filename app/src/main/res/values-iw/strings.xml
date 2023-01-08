@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">אַזהָרָה</string>
+    <string name="permissions_main_text">אנא אפשר את ההרשאות הנדרשות כדי להפעיל את מסך השיחה.</string>
+    <string name="open">לִפְתוֹחַ</string>
+    <string name="decline">יְרִידָה</string>
+    <string name="accept">לְהַסכִּים</string>
+    <string name="applyIt">יישם זאת</string>
+    <string name="download">הורד</string>
+    <string name="select_contacts">בחר אנשי קשר</string>
+    <string name="set">מַעֲרֶכֶת</string>
+    <string name="call_screen">מסך שיחה</string>
+    <string name="flash_on_call">Flash on Call</string>
+    <string name="contact_theme">נושא ליצירת קשר</string>
+    <string name="feedback">מָשׁוֹב</string>
+    <string name="share">לַחֲלוֹק</string>
+    <string name="privacy_policy">מדיניות פרטיות</string>
+    <string name="enable_call_screen">הפעל מסך שיחה</string>
+    <string name="phonesandcontacts"><![CDATA[טלפון ואנשי קשר]]></string>
+    <string name="phonesandcontactssubtitle">כדי לזהות שיחה נכנסת ולהראות אנשי קשר</string>
+    <string name="screen_permission">הרשאת מסך</string>
+    <string name="screen_permission_subtitle">להצגת מסך השיחה</string>
+    <string name="call_permission_subtitle">כדי לאפשר מענה לשיחות</string>
+    <string name="call_permission_title">הרשאת שיחה</string>
+    <string name="number_show_permission">הרשאת מספר</string>
+    <string name="number_show_permission_subtitle">להצגה של מספר חיוג</string>
+    <string name="to_show_call_screen">להצגת מסך השיחה</string>
+    <string name="call_screen_launched">מסך השיחה הופעל</string>
+    <string name="applied">הוחל</string>
+    <string name="apply_theme">להחיל עיצוב?</string>
+    <string name="apply_theme_subtitle">להחיל עיצוב חדש על מסך המתקשר שלך?</string>
+    <string name="cancel">לְבַטֵל</string>
+    <string name="apply">להגיש מועמדות</string>
+    <string name="privacy_policy_agreement">על ידי המשך אתה מסכים <a href="https://ponica.media/dynamic-island/privacy-policy/">מדיניות פרטיות</a> ו <a href="https://ponica.media/dynamic-island/term-of-service/">תנאי השירות</a></string>
+
+    <string name="continue_title">הַבָּא</string>
+
+    <string name="subscription">המנוי יתחדש אוטומטית באותו מחיר ולאותה תקופה. אתה יכול לבטל את המנוי שלך בכל עת <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">לְקַבֵּל</string>
+    <string name="onboard_title_1">ברוך הבא ל\ncall screen themes</string>
+    <string name="onboard_desc_1">כדי להמשיך, אנא קרא והסכים ל: <a href="https://ponica.media/call-screen/privacy-policy/">מדיניות פרטיות</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">הסכמת המשתמש</a></string>
+    <string name="onboard_title_2">מעל 30\nמסכים בהירים</string>
+    <string name="onboard_desc_2">ערכות נושא חדשות מדי חודש</string>
+    <string name="onboard_title_3">הגדר סרטון ייחודי\nעבור כל איש קשר</string>
+    <string name="onboard_desc_3">הפשטות, נופים, חיות מחמד ועוד</string>
+    <string name="onboard_title_4">הגדר את אור הפלאש\nבשיחה</string>
+    <string name="onboard_desc_4">הוסף אפקט מיוחד ליותר בהירות</string>
+
+    <string name="paywall_benefit_1">איכות HD</string>
+    <string name="paywall_benefit_2">אין פרסום</string>
+    <string name="paywall_benefit_3">מעל 30 מסכים</string>
+    <string name="reestablish">לְהַקִים מִחָדָשׁ</string>
+    <string name="paywall_title">נסה את זה בחינם\nבלי פרסום</string>
+    <string name="month_btn_title">3 ימים חינם</string>
+    <string name="month_desc">לאחר ניסיון חינם %1s לחודש</string>
+    <string name="year_btn_title">7 ימים חינם</string>
+    <string name="year_desc">לאחר ניסיון חינם %1s בשנה</string>
+    <string name="like_this_app">אנא תן לנו 5 כוכבים אם אהבתם את האפליקציה</string>
+    <string name="rate">ציון</string>
+    <string name="rate_on_google_play">דרג ב-Google Play</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="do_you_like_this_app">אהבתם את האפליקציה?</string>
+    <string name="do_you_like_this_app_short">את האפליקציה\nאהבתם?</string>
+    <string name="close_icon">סגור סמל</string>
+    <string name="monster_icon">אייקון מפלצת</string>
+    <string name="send">לִשְׁלוֹחַ</string>
+    <string name="enter_text">הזן טקסט</string>
+    <string name="help_to_improve">אנא עזרו לנו לשפר את האפליקציה!</string>
+    <string name="describe_what_you_didnt_like">תאר מה לא אהבת</string>
+    <string name="delete">לִמְחוֹק</string>
+    <string name="delete_theme">למחוק נושא</string>
+</resources>

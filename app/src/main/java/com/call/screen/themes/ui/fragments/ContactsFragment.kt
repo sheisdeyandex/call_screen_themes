@@ -1,6 +1,7 @@
 package com.call.screen.themes.ui.fragments
 
 import android.content.Context
+import android.content.Context.MODE_PRIVATE
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -14,9 +15,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.call.screen.themes.R
 import com.call.screen.themes.data.model.ContactsModel
 import com.call.screen.themes.databinding.FragmentContactsBinding
+import com.call.screen.themes.singleton.CallApplication
+import com.call.screen.themes.ui.MainActivity
 import com.call.screen.themes.ui.adapters.ContactsAdapter
 import com.call.screen.themes.viewmodels.ContactsViewModel
 import kotlinx.coroutines.Dispatchers
@@ -37,15 +42,36 @@ class ContactsFragment : Fragment() {
         binding = FragmentContactsBinding.inflate(inflater,container,false)
         return binding.root
     }
-
+    fun showRate(){
+        val rateApp = (requireActivity() as MainActivity).rateApp
+        rateApp.observe(viewLifecycleOwner){
+            if (it){
+                findNavController().navigate(R.id.action_contactsFragment_to_zeroStartFragment)
+                rateApp.postValue(false)
+            }
+        }
+    }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        viewModel.shared = requireActivity().getPreferences(MODE_PRIVATE)
         contactsAdapter = ContactsAdapter()
+        showRate()
         initRecycleView()
         binding.ivBack.setOnClickListener {
             it.findNavController().popBackStack()
         }
         binding.btnSet.setOnClickListener {
+
+            if (contactsAdapter.addedContactsList.isNotEmpty()){
+                val newList = ArrayList<ContactsModel>()
+                viewModel.getArrayList().forEach {
+                    newList.add(it)
+                }
+                contactsAdapter.addedContactsList.forEach {
+                    newList.add(ContactsModel(it.id,it.name,it.number,it.lookUpKey,it.photo,CallApplication.theme,false,CallApplication.videoUri))
+                }
+                CallApplication.contactsScreen = newList
+            }
             it.findNavController().popBackStack()
         }
         binding.ivSearch.setOnClickListener {

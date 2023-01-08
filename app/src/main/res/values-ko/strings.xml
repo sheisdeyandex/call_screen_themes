@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">경고</string>
+    <string name="permissions_main_text">통화 화면을 사용하려면 필요한 권한을 허용하세요.</string>
+    <string name="open">열려 있는</string>
+    <string name="decline">감소</string>
+    <string name="accept">동의하다</string>
+    <string name="applyIt">그것을 적용</string>
+    <string name="download">다운로드</string>
+    <string name="select_contacts">연락처 선택</string>
+    <string name="set">세트</string>
+    <string name="call_screen">화면 호출</string>
+    <string name="flash_on_call">통화 중 플래시</string>
+    <string name="contact_theme">연락처 테마</string>
+    <string name="feedback">피드백</string>
+    <string name="share">공유</string>
+    <string name="privacy_policy">개인 정보 정책</string>
+    <string name="enable_call_screen">선택 통화 활성화</string>
+    <string name="phonesandcontacts"><![CDATA[전화 및 연락처]]></string>
+    <string name="phonesandcontactssubtitle">수신 전화 감지 및 연락처 표시</string>
+    <string name="screen_permission">화면 권한</string>
+    <string name="screen_permission_subtitle">통화 화면을 표시하려면</string>
+    <string name="call_permission_subtitle">전화 응답을 활성화하려면</string>
+    <string name="call_permission_title">통화 권한</string>
+    <string name="number_show_permission">번호 권한</string>
+    <string name="number_show_permission_subtitle">인콜 번호를 표시하려면</string>
+    <string name="to_show_call_screen">통화 화면을 표시하려면</string>
+    <string name="call_screen_launched">통화 화면 실행됨</string>
+    <string name="applied">적용된</string>
+    <string name="apply_theme">테마를 적용하시겠습니까?</string>
+    <string name="apply_theme_subtitle">발신자 화면에 새 테마를 적용하시겠습니까?</string>
+    <string name="cancel">취소</string>
+    <string name="apply">적용하다</string>
+    <string name="privacy_policy_agreement">계속하면 다음에 동의하는 것입니다 <a href="https://ponica.media/dynamic-island/privacy-policy/">개인 정보 정책</a> and <a href="https://ponica.media/dynamic-island/term-of-service/">서비스 약관</a></string>
+
+    <string name="continue_title">다음</string>
+
+    <string name="subscription">구독은 동일한 가격과 동일한 기간 동안 자동으로 갱신됩니다. <a href="https://play.google.com/store/account/subscriptions">Google Play</a> 에서 언제든지 구독을 취소할 수 있습니다.</string>
+
+    <string name="agree">수용하다</string>
+    <string name="onboard_title_1">에 오신 것을 환영합니다\ncall screen themes</string>
+    <string name="onboard_desc_1">계속하려면 다음을 읽고 동의하십시오: <a href="https://ponica.media/call-screen/privacy-policy/">개인 정보 정책</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">사용자 계약</a></string>
+    <string name="onboard_title_2">30개가 넘는\n밝은 화면</string>
+    <string name="onboard_desc_2">매달 새로운 테마</string>
+    <string name="onboard_title_3">각 연락처에 대해 고유한\n비디오 설정</string>
+    <string name="onboard_desc_3">추상화, 풍경, 애완 동물 등</string>
+    <string name="onboard_title_4">통화 중 플래시\n라이트 설정l</string>
+    <string name="onboard_desc_4">밝기를 높이기 위해 특수 효과 추가</string>
+
+    <string name="paywall_benefit_1">HD 품질</string>
+    <string name="paywall_benefit_2">광고 없음</string>
+    <string name="paywall_benefit_3">30개 이상의 화면</string>
+    <string name="reestablish">재설정</string>
+    <string name="paywall_title">광고 없이 무료로\n사용해 보세요</string>
+    <string name="month_btn_title">3일 무료</string>
+    <string name="month_desc">무료 체험 후 %1s 달마다</string>
+    <string name="year_btn_title">7일 무료</string>
+    <string name="year_desc">무료 체험 후 %1s 연간</string>
+    <string name="like_this_app">앱이 마음에 드셨다면 별 5개를 주세요.</string>
+    <string name="rate">비율</string>
+    <string name="rate_on_google_play">Google Play에서 평가</string>
+    <string name="yes">예</string>
+    <string name="no">아니</string>
+    <string name="do_you_like_this_app">앱이 마음에 드셨나요?</string>
+    <string name="do_you_like_this_app_short">앱이 마음에\n드셨나요?</string>
+    <string name="close_icon">닫기 아이콘</string>
+    <string name="monster_icon">몬스터 아이콘</string>
+    <string name="send">보내다</string>
+    <string name="enter_text">텍스트 입력</string>
+    <string name="help_to_improve">앱 개선에 도움을 주세요!</string>
+    <string name="describe_what_you_didnt_like">마음에 들지 않은 점을 설명하세요.</string>
+    <string name="delete">삭제</string>
+    <string name="delete_theme">주제 삭제</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">คำเตือน</string>
+    <string name="permissions_main_text">โปรดให้สิทธิ์ที่จำเป็นเพื่อเปิดใช้งานหน้าจอการโทร</string>
+    <string name="open">เปิด</string>
+    <string name="decline">ปฏิเสธ</string>
+    <string name="accept">เห็นด้วย</string>
+    <string name="applyIt">นำไปใช้</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="select_contacts">เลือกผู้ติดต่อ</string>
+    <string name="set">ชุด</string>
+    <string name="call_screen">หน้าจอการโทร</string>
+    <string name="flash_on_call">แฟลชเมื่อโทร</string>
+    <string name="contact_theme">ติดต่อธีม</string>
+    <string name="feedback">ข้อเสนอแนะ</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="enable_call_screen">เปิดใช้งานหน้าจอการโทร</string>
+    <string name="phonesandcontacts"><![CDATA[โทรศัพท์ & รายชื่อ]]></string>
+    <string name="phonesandcontactssubtitle">เพื่อตรวจจับสายเรียกเข้าและแสดงรายชื่อ</string>
+    <string name="screen_permission">การอนุญาตหน้าจอ</string>
+    <string name="screen_permission_subtitle">เพื่อแสดงหน้าจอการโทร</string>
+    <string name="call_permission_subtitle">เพื่อเปิดใช้งานการรับสาย</string>
+    <string name="call_permission_title">สิทธิ์การโทร</string>
+    <string name="number_show_permission">หมายเลขอนุญาต</string>
+    <string name="number_show_permission_subtitle">เพื่อแสดงหมายเลขโทรเข้า</string>
+    <string name="to_show_call_screen">เพื่อแสดงหน้าจอการโทร</string>
+    <string name="call_screen_launched">เปิดตัวหน้าจอการโทร</string>
+    <string name="applied">สมัครแล้ว</string>
+    <string name="apply_theme">ใช้ธีม?</string>
+    <string name="apply_theme_subtitle">ใช้ธีมใหม่สำหรับหน้าจอผู้โทรของคุณหรือไม่</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="apply">นำมาใช้</string>
+    <string name="privacy_policy_agreement">การดำเนินการต่อแสดงว่าคุณยอมรับ<a href="https://ponica.media/dynamic-island/privacy-policy/">นโยบายความเป็นส่วนตัว</a>และ<a href="https://ponica.media/dynamic -island/term-of-service/">ข้อกำหนดในการให้บริการ</a></string>
+
+    <string name="continue_title">ถัดไป</string>
+
+    <string name="subscription">การสมัครสมาชิกจะต่ออายุโดยอัตโนมัติในราคาเดียวกันและในช่วงเวลาเดียวกัน คุณสามารถยกเลิกการสมัครได้ตลอดเวลาบน <a href="https://play.google.com/store/account/subscriptions">Google Play</a></string>
+
+    <string name="agree">ยอมรับ</string>
+    <string name="onboard_title_1">ยินดีต้อนรับสู่ธีมหน้\nาจอการโทร</string>
+    <string name="onboard_desc_1">หากต้องการดำเนินการต่อ โปรดอ่านและยอมรับ: <a href="https://ponica.media/call-screen/privacy-policy/">นโยบายความเป็นส่วนตัว</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">ข้อตกลงผู้ใช้</a></string>
+    <string name="onboard_title_2">หน้าจอสว่างกว่า 30 จอ</string>
+    <string name="onboard_desc_2">ธีมใหม่ทุกเดือน</string>
+    <string name="onboard_title_3">ตั้งค่าวิดีโอที่ไม่ซ้ำกันส\nำหรับผู้ติดต่อแต่ละราย</string>
+    <string name="onboard_desc_3">สิ่งที่เป็นนามธรรม ทิวทัศน์ สัตว์เลี้ยง และอื่นๆ</string>
+    <string name="onboard_title_4">ตั้งแสงแฟลช\nในการโทร</string>
+    <string name="onboard_desc_4">เพิ่มเอฟเฟกต์พิเศษเพื่อความสว่างที่มากขึ้น</string>
+
+    <string name="paywall_benefit_1">คุณภาพระดับ HD</string>
+    <string name="paywall_benefit_2">ไม่มีโฆษณา</string>
+    <string name="paywall_benefit_3">กว่า 30 หน้าจอ</string>
+    <string name="reestablish">สร้างใหม่</string>
+    <string name="paywall_title">ทดลองใช้ฟรีโดย\nไม่ต้องโฆษณา</string>
+    <string name="month_btn_title">ฟรี 3 วัน</string>
+    <string name="month_desc">หลังจากทดลองใช้ฟรี %1s ต่อเดือน</string>
+    <string name="year_btn_title">ฟรี 7 วัน</string>
+    <string name="year_desc">หลังจากทดลองใช้ฟรี %1s ต่อปี</string>
+    <string name="like_this_app">โปรดให้ 5 ดาวแก่เราหากคุณชอบแอพนี้</string>
+    <string name="rate">ประเมิน</string>
+    <string name="rate_on_google_play">ให้คะแนนบน Google Play</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+    <string name="do_you_like_this_app">คุณชอบแอพนี้หรือไม่?</string>
+    <string name="do_you_like_this_app_short">คุณชอบแอพนี้\nหรือไม่?</string>
+    <string name="close_icon">ปิดไอคอน</string>
+    <string name="monster_icon">ไอคอนมอนสเตอร์</string>
+    <string name="send">ส่ง</string>
+    <string name="enter_text">ป้อนข้อความ</string>
+    <string name="help_to_improve">โปรดช่วยเราปรับปรุงแอป!</string>
+    <string name="describe_what_you_didnt_like">อธิบายสิ่งที่คุณไม่ชอบ</string>
+    <string name="delete">ลบ</string>
+    <string name="delete_theme">ลบหัวข้อ</string>
+</resources>

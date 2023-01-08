@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Screen Themes</string>
+    <string name="warning">警告</string>
+    <string name="permissions_main_text">通話画面を有効にするために必要な権限を許可してください.</string>
+    <string name="open">開いた</string>
+    <string name="decline">却下</string>
+    <string name="accept">同意</string>
+    <string name="applyIt">適用する</string>
+    <string name="download">ダウンロード</string>
+    <string name="select_contacts">連絡先を選択</string>
+    <string name="set">セットする</string>
+    <string name="call_screen">通話画面</string>
+    <string name="flash_on_call">フラッシュオンコール</string>
+    <string name="contact_theme">お問い合わせテーマ</string>
+    <string name="feedback">フィードバック</string>
+    <string name="share">共有</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="enable_call_screen">通話スクリーニングを有効にする</string>
+    <string name="phonesandcontacts"><![CDATA[電話と連絡先]]></string>
+    <string name="phonesandcontactssubtitle">着信を検出して連絡先を表示するには</string>
+    <string name="screen_permission">画面の許可</string>
+    <string name="screen_permission_subtitle">通話画面を表示するには</string>
+    <string name="call_permission_subtitle">通話への応答を有効にするには</string>
+    <string name="call_permission_title">通話許可</string>
+    <string name="number_show_permission">番号の許可</string>
+    <string name="number_show_permission_subtitle">着信番号を表示するには</string>
+    <string name="to_show_call_screen">通話画面を表示するには</string>
+    <string name="call_screen_launched">通話画面が起動しました</string>
+    <string name="applied">適用</string>
+    <string name="apply_theme">テーマを適用しますか?</string>
+    <string name="apply_theme_subtitle">発信者の画面に新しいテーマを適用しますか?</string>
+    <string name="cancel">キャンセル</string>
+    <string name="apply">申し込み</string>
+    <string name="privacy_policy_agreement">続行することにより、 <a href="https://ponica.media/dynamic-island/privacy-policy/">プライバシーポリシー</a> と <a href="https://ponica.media/dynamic-island/term-of-service/">利用規約</a> に同意したことになります</string>
+
+    <string name="continue_title">次</string>
+
+    <string name="subscription">サブスクリプションは、同じ価格で同じ期間、自動的に更新されます。 定期購入は <a href="https://play.google.com/store/account/subscriptions">Google Play</a> でいつでもキャンセルできます</string>
+
+    <string name="agree">承認</string>
+    <string name="onboard_title_1">ようこそ\ncall screen themes</string>
+    <string name="onboard_desc_1">続行するには、以下を読んで同意してください: <a href="https://ponica.media/call-screen/privacy-policy/">プライバシーポリシー</a> &amp; <a href="https://ponica.media/call-screen/term-of-service/">ユーザー規約</a></string>
+    <string name="onboard_title_2">30以上の明るい\nスクリーン</string>
+    <string name="onboard_desc_2">毎月新しいテーマ</string>
+    <string name="onboard_title_3">連絡先ごとに固有のビデオ\nを設定する</string>
+    <string name="onboard_desc_3">抽象化、風景、ペットなど</string>
+    <string name="onboard_title_4">通話中にフラッシュ ライト\nを設定する</string>
+    <string name="onboard_desc_4">特殊効果を追加して明るさを増す</string>
+
+    <string name="paywall_benefit_1">HD品質</string>
+    <string name="paywall_benefit_2">広告なし</string>
+    <string name="paywall_benefit_3">30以上のスクリーン</string>
+    <string name="reestablish">再確立</string>
+    <string name="paywall_title">広告なしで\n無料で試す</string>
+    <string name="month_btn_title">3日間無料</string>
+    <string name="month_desc">無料トライアル後 %1s 毎月</string>
+    <string name="year_btn_title">7 日間無料</string>
+    <string name="year_desc">無料トライアル後 %1s 1年当たり</string>
+    <string name="like_this_app">アプリが気に入ったら、5つ星をお願いします</string>
+    <string name="rate">割合</string>
+    <string name="rate_on_google_play">Google Play で評価する</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="do_you_like_this_app">アプリは気に入りましたか？</string>
+    <string name="do_you_like_this_app_short">アプリは\n気に入りましたか?</string>
+    <string name="close_icon">閉じるアイコン</string>
+    <string name="monster_icon">モンスター アイコン</string>
+    <string name="send">送信</string>
+    <string name="enter_text">テキストを入力</string>
+    <string name="help_to_improve">アプリの改善にご協力ください！</string>
+    <string name="describe_what_you_didnt_like">気に入らなかった点を説明する</string>
+    <string name="delete">消去</string>
+    <string name="delete_theme">トピックを削除</string>
+</resources>
